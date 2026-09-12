@@ -59,7 +59,7 @@ Tabela diária conforme [`RULES.md`](../RULES.md) seção 9 — no apêndice do 
 
 ## 6. Pacote Odete
 
-`Grupo_XX_Trabalho_Series_Temporais.zip` contendo:
+`Grupo_03_Trabalho_Series_Temporais.zip` contendo:
 
 - [ ] PDF final
 - [ ] HTML paginado

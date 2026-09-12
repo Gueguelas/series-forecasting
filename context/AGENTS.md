@@ -27,7 +27,7 @@ Auxiliar o grupo na implementação reprodutível do trabalho de séries tempora
 - Carregar/salvar dados em `../data/base_XX/` com nomenclatura ADR-0005 (`cleaned_{base_id}.csv`, etc.)
 - Salvar modelos treinados em `../artifacts/base_XX/{modelo}.pkl`
 - Usar seeds fixos e versões de bibliotecas pinadas para reprodutibilidade
-- Atualizar [`HANDOFF.md`](HANDOFF.md) ao encerrar sessões com trabalho relevante
+- Quando o usuário **pedir handoff**, criar `context/handoff/handoff_{resumo_da_sessao}.md` (ver seção Handoff)
 - Escrever em português nos documentos de contexto e relatório; código e nomes de variáveis em inglês
 
 ### Não fazer
@@ -43,10 +43,10 @@ Auxiliar o grupo na implementação reprodutível do trabalho de séries tempora
 
 ```
 1. Ler contexto (PRD → SDD → ADR → Spec)
-2. Confirmar escopo da tarefa com HANDOFF anterior
+2. Ler o handoff mais recente em [`handoff/`](handoff/)
 3. Implementar mudança mínima necessária
 4. Validar anti-leakage e reprodutibilidade
-5. Registrar HANDOFF
+5. Criar handoff se solicitado (`context/handoff/handoff_{resumo}.md`)
 6. Aguardar humano revisar e autorizar commit (se aplicável)
 ```
 
@@ -68,7 +68,7 @@ Auxiliar o grupo na implementação reprodutível do trabalho de séries tempora
 | SARIMAX | Sim | Coeficientes |
 | Holt-Winters | Não (univariado) | Nível, tendência, sazonalidade |
 | Random Forest | Sim | Nativa / Permutation |
-| Especialização [DEFINIR] | Sim (se compatível) | Conforme modelo (ver enunciado) |
+| **Elastic Net** (Grupo 3) | Sim | Coeficientes padronizados |
 
 ## Quando criar uma ADR
 
@@ -84,8 +84,14 @@ Use o template em [`adr/0000-template.md`](adr/0000-template.md).
 - Explicar **por que** uma decisão metodológica foi tomada
 - Citar trechos do enunciado ou ADR quando relevante
 - Indicar arquivos alterados e validações pendentes
-- Não assumir número do grupo nem modelo de especialização — perguntar se não estiver definido
-
 ## Handoff
 
-Ao final de sessões com alterações, preencher seção em [`HANDOFF.md`](HANDOFF.md) seguindo o template. Não fazer commit do handoff sem autorização.
+**Somente quando o usuário pedir** (ex.: *"crie o handoff"*, *"registrar handoff"*):
+
+1. Criar arquivo em `context/handoff/handoff_{resumo_da_sessao}.md`
+2. `{resumo_da_sessao}` em `snake_case`, minúsculas, sem acentos — descreve o que foi feito
+3. Preencher com template de [`HANDOFF.md`](HANDOFF.md) ou [`handoff/_template.md`](handoff/_template.md)
+4. Atualizar índice em [`handoff/README.md`](handoff/README.md)
+5. **Não** fazer commit sem autorização explícita
+
+Exemplos: `handoff_eda_base_01.md`, `handoff_tuning_elastic_net.md`, `handoff_relatorio_mae.md`

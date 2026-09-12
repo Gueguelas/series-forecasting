@@ -95,14 +95,14 @@ Agentes devem **facilitar**, não **substituir** o raciocínio do grupo.
 
 - Decisões estruturais → ADR em `context/adr/`
 - Detalhes técnicos → SPECs em `context/specs/`
-- Encerramento de sessão → `context/HANDOFF.md`
+- Handoff de sessão (quando solicitado) → `context/handoff/handoff_{resumo}.md`
 - Conflito entre documentos → ver precedência em [`README.md`](README.md)
 
 ---
 
 ## 8. Entrega
 
-- Pacote único: `Grupo_XX_Trabalho_Series_Temporais.zip`
+- Pacote único: `Grupo_03_Trabalho_Series_Temporais.zip`
 - Conteúdo mínimo conforme [`PRD.md`](PRD.md) seção 6
 - Registro de demandas diário por integrante (apêndice para o professor)
 

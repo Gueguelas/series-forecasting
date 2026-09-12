@@ -140,7 +140,7 @@ df = pd.read_csv(DATA_PATH / "arquivo.csv")  # ajustar nome do arquivo
 
 ## 9. Não implementado ainda
 
-- [ ] Definir número do grupo e modelo de especialização
+- [x] Grupo 3 — Elastic Net
 - [ ] Receber e organizar os 5 datasets em `data/base_XX/`
 - [ ] Criar os 6 notebooks (`base_01`–`base_05` + `relatorio`)
 - [ ] Fixar horizonte e protocolo walk-forward (ADR-0005 sugerida)

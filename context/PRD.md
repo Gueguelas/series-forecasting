@@ -1,8 +1,9 @@
 # PRD — Modelagem Comparativa de Séries Temporais
 
 **Status:** Rascunho  
-**Grupo:** [DEFINIR — 1 a 5]  
-**Modelo de especialização:** [DEFINIR conforme grupo]  
+**Grupo:** 3  
+**Modelo de especialização:** Elastic Net (regressão linear regularizada)  
+**Slug do modelo:** `elastic_net`  
 **Fonte:** `docs/instrucoes.pdf`
 
 ---
@@ -81,7 +82,7 @@ Cada base deve:
 
 Cada notebook de base deve ser **autocontido e reprodutível**: EDA, STL, features, 4 modelos, walk-forward, MAE, resíduos e feature importance daquela base.
 
-**Nome sugerido do zip:** `Grupo_XX_Trabalho_Series_Temporais.zip`
+**Nome sugerido do zip:** `Grupo_03_Trabalho_Series_Temporais.zip`
 
 ## 7. Estrutura mínima do relatório
 

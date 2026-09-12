@@ -10,7 +10,8 @@ Fonte de verdade para decisões, especificações e governança do trabalho acad
 4. [`AGENTS.md`](AGENTS.md) — instruções para agentes de IA
 5. ADRs em [`adr/`](adr/) — decisões arquiteturais e metodológicas
 6. SPECs em [`specs/`](specs/) — especificações técnicas por domínio
-7. [`HANDOFF.md`](HANDOFF.md) — template de encerramento de sessão
+7. [`HANDOFF.md`](HANDOFF.md) — guia e template de handoff
+8. Handoffs de sessão em [`handoff/`](handoff/) — `handoff_{resumo_da_sessao}.md`
 
 ## Documento de origem
 

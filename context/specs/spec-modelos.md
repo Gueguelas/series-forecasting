@@ -13,7 +13,7 @@
 | SARIMAX | Sim | Modelo estatístico com exógenas |
 | Holt-Winters | Não | Referência univariada |
 | Random Forest | Sim | ML com importância nativa |
-| [Elastic Net] | Sim* | Modelo do grupo |
+| Elastic Net | Sim | Modelo de especialização (Grupo 3) |
 
 \* Conforme compatibilidade do algoritmo.
 
@@ -31,15 +31,12 @@
 ### Random Forest
 - `n_estimators`, `max_depth`, `min_samples_split`, `min_samples_leaf`, `max_features`
 
-### Modelo de especialização [3 - Elastic Net]
+### Elastic Net (Grupo 3 — especialização)
 
-| Grupo | Modelo | Hiperparâmetros principais |
-|-------|--------|--------------------------|
-| 1 | XGBoost | `n_estimators`, `max_depth`, `learning_rate`, … |
-| 2 | SVR | `C`, `epsilon`, kernel, `gamma` |
-| 3 | Elastic Net | `alpha`, `l1_ratio` |
-| 4 | MLP | camadas, `alpha`, `learning_rate_init` |
-| 5 | PLS | `n_components` |
+- Hiperparâmetros principais: `alpha`, `l1_ratio`
+- Requer padronização das features antes do ajuste
+- Interpretação: coeficientes após padronização
+- Slug de arquivo: `elastic_net` (`predictions_elastic_net_{base_id}.csv`, `elastic_net.pkl`)
 
 ## 3. Otimização
 
