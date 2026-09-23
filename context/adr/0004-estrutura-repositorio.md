@@ -7,7 +7,7 @@
 
 ## Contexto
 
-O projeto exige código organizado, relatório reprodutível e colaboração entre integrantes. As **entregas são notebooks** (não pacote `src/`). Os **dados são fornecidos ao grupo** e ficam na pasta `data/`, que está no `.gitignore` — cada integrante mantém a cópia local organizada da mesma forma.
+O projeto exige código organizado, relatório reprodutível e colaboração entre integrantes. As **entregas são notebooks** (não pacote `src/`). Os **dados são fornecidos ao grupo** e ficam na pasta `data/` — cada integrante mantém a cópia local organizada da mesma forma.
 
 ## Decisão
 
@@ -18,7 +18,7 @@ series-forecasting/
 ├── context/              # PRD, SDD, ADRs, SPECs, RULES, AGENTS, HANDOFF
 ├── docs/
 │   └── instrucoes.pdf
-├── data/                 # GITIGNORE — raw + dados derivados (local)
+├── data/                 
 │   ├── README.md         # Nomenclatura: cleaned_{base_id}.csv, etc.
 │   ├── base_01/ … base_05/
 │   └── mae_consolidated.csv
