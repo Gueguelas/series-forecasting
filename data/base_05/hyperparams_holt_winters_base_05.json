@@ -1,0 +1,267 @@
+{
+  "base_id": "base_05",
+  "model": "holt_winters",
+  "method": "expanding temporal GridSearch",
+  "tuning_end": "2020-12-29",
+  "test_start": "2020-12-30",
+  "n_candidates": 25,
+  "search_results": [
+    {
+      "params": {
+        "trend": "mul",
+        "damped_trend": false,
+        "seasonal": "mul",
+        "seasonal_periods": 21
+      },
+      "validation_mae": 0.9571805497983519,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "trend": "add",
+        "damped_trend": false,
+        "seasonal": "mul",
+        "seasonal_periods": 21
+      },
+      "validation_mae": 0.9888899345276698,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "trend": "mul",
+        "damped_trend": true,
+        "seasonal": "mul",
+        "seasonal_periods": 21
+      },
+      "validation_mae": 1.040498816401815,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "trend": "add",
+        "damped_trend": true,
+        "seasonal": "mul",
+        "seasonal_periods": 21
+      },
+      "validation_mae": 1.0500067290002377,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "trend": null,
+        "damped_trend": false,
+        "seasonal": "mul",
+        "seasonal_periods": 21
+      },
+      "validation_mae": 1.0701258900627693,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "trend": "mul",
+        "damped_trend": false,
+        "seasonal": "add",
+        "seasonal_periods": 21
+      },
+      "validation_mae": 1.320597640036958,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "trend": "mul",
+        "damped_trend": true,
+        "seasonal": "add",
+        "seasonal_periods": 21
+      },
+      "validation_mae": 1.3587910330192372,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "trend": "add",
+        "damped_trend": false,
+        "seasonal": "add",
+        "seasonal_periods": 21
+      },
+      "validation_mae": 1.4006347850537608,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "trend": "add",
+        "damped_trend": true,
+        "seasonal": "add",
+        "seasonal_periods": 21
+      },
+      "validation_mae": 1.4169313100432674,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "trend": null,
+        "damped_trend": false,
+        "seasonal": "add",
+        "seasonal_periods": 21
+      },
+      "validation_mae": 1.4456268084385826,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "trend": "mul",
+        "damped_trend": false,
+        "seasonal": null,
+        "seasonal_periods": null
+      },
+      "validation_mae": 1.4954264443196053,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "trend": "mul",
+        "damped_trend": false,
+        "seasonal": "add",
+        "seasonal_periods": 5
+      },
+      "validation_mae": 1.5016774687881735,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "trend": "mul",
+        "damped_trend": false,
+        "seasonal": "mul",
+        "seasonal_periods": 5
+      },
+      "validation_mae": 1.5201958364843122,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "trend": "add",
+        "damped_trend": false,
+        "seasonal": null,
+        "seasonal_periods": null
+      },
+      "validation_mae": 1.5569216076252417,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "trend": "add",
+        "damped_trend": false,
+        "seasonal": "add",
+        "seasonal_periods": 5
+      },
+      "validation_mae": 1.564064829894086,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "trend": "add",
+        "damped_trend": false,
+        "seasonal": "mul",
+        "seasonal_periods": 5
+      },
+      "validation_mae": 1.5741313980544689,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "trend": "mul",
+        "damped_trend": true,
+        "seasonal": null,
+        "seasonal_periods": null
+      },
+      "validation_mae": 1.5809203597277772,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "trend": "add",
+        "damped_trend": true,
+        "seasonal": null,
+        "seasonal_periods": null
+      },
+      "validation_mae": 1.5910008019104893,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "trend": "add",
+        "damped_trend": true,
+        "seasonal": "add",
+        "seasonal_periods": 5
+      },
+      "validation_mae": 1.598333428618858,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "trend": "mul",
+        "damped_trend": true,
+        "seasonal": "mul",
+        "seasonal_periods": 5
+      },
+      "validation_mae": 1.6063339873915012,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "trend": "add",
+        "damped_trend": true,
+        "seasonal": "mul",
+        "seasonal_periods": 5
+      },
+      "validation_mae": 1.6166738423380238,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "trend": null,
+        "damped_trend": false,
+        "seasonal": null,
+        "seasonal_periods": null
+      },
+      "validation_mae": 1.6188499748220124,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "trend": null,
+        "damped_trend": false,
+        "seasonal": "add",
+        "seasonal_periods": 5
+      },
+      "validation_mae": 1.6262100661683476,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "trend": null,
+        "damped_trend": false,
+        "seasonal": "mul",
+        "seasonal_periods": 5
+      },
+      "validation_mae": 1.6447050968356791,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "trend": "mul",
+        "damped_trend": true,
+        "seasonal": "add",
+        "seasonal_periods": 5
+      },
+      "validation_mae": NaN,
+      "n_failed_origins": 0
+    }
+  ],
+  "selected": {
+    "trend": "mul",
+    "damped_trend": false,
+    "seasonal": "mul",
+    "seasonal_periods": 21
+  },
+  "criterion": "menor MAE m\u00e9dio na valida\u00e7\u00e3o temporal"
+}

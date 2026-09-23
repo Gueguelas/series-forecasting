@@ -1,0 +1,5 @@
+base_id,model,mae,rank,n_predictions
+base_05,elastic_net,1.6966973098495652,1,63
+base_05,sarimax,1.993968443318463,2,63
+base_05,random_forest,2.2560578656887174,3,63
+base_05,holt_winters,2.651879595662612,4,63
