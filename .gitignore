@@ -1,7 +1,4 @@
-/data
-!/data/README.md
-/artifacts
-!/artifacts/README.md
+/artifacts/base_*
 .env
 
 # Byte-compiled / optimized / DLL files
