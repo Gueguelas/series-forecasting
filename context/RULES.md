@@ -31,10 +31,10 @@ Regras para integrantes humanos e agentes de IA.
 
 | Versionar | Não versionar (`.gitignore`) |
 |-----------|------------------------------|
-| `notebooks/*.ipynb` — **entregas principais** | `data/` inteira (exceto `data/README.md`) |
+| `notebooks/*.ipynb` — **entregas principais** | ------ |
 | `context/`, `docs/` | `artifacts/` inteira (exceto `artifacts/README.md`) |
 | `requirements.txt` | `.env`, credenciais, `__pycache__/`, `.venv/` |
-| `data/README.md`, `artifacts/README.md` | Pickles (`.pkl`), datasets, CSVs derivados |
+| `data/README.md`, `artifacts/README.md` | Pickles (`.pkl`) |
 
 **Dados (`data/`):** raw fornecido + **todo dado gerado** (`cleaned_{base_id}.csv`, `predictions_*`, `mae_*`, etc.) — ver nomenclatura em [`data/README.md`](../data/README.md).
 
