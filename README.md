@@ -9,7 +9,6 @@ Projeto acadêmico para comparação de modelos de séries temporais com variáv
 **Como Começar**
 - **Pré-requisitos:** Python 3.8+ e bibliotecas listadas nos notebooks (use um ambiente virtual).
 - **Abrir notebooks:** Veja [notebooks/README.md](notebooks/README.md) para orientações e execução interativa.
-- **Dados:** Os dados ficam em [data/README.md](data/README.md); siga as instruções para preparação/ingestão antes de rodar experimentos.
 
 **Estrutura do Repositório**
 - **context/**: Documentação de produto, SDD, regras, ADRs, handoffs e instruções para agentes — fonte de verdade para decisões e especificações. Veja [context/README.md](context/README.md).
