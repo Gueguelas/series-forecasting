@@ -5,7 +5,7 @@
 
 ## 1. Princípio
 
-Os datasets são **fornecidos ao grupo**. Tudo que for dado — raw ou gerado — fica em `data/` (gitignored). Modelos `.pkl` ficam em `artifacts/` (ver ADR-0005).
+Os datasets são **fornecidos ao grupo**. Tudo que for dado — raw ou gerado — fica em `data/`. Modelos `.pkl` ficam em `artifacts/` (ver ADR-0005).
 
 Guia completo: [`data/README.md`](../../data/README.md)
 
