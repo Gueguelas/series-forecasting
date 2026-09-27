@@ -1,0 +1,256 @@
+{
+  "base_id": "base_02",
+  "dataset": "DailyClimate",
+  "model": "elastic_net",
+  "method": "GridSearchCV + TimeSeriesSplit(n_splits=5)",
+  "tuning_end": "2017-02-20",
+  "test_start": "2017-02-21",
+  "n_candidates": 36,
+  "search_results": [
+    {
+      "params": {
+        "model__alpha": 0.5,
+        "model__l1_ratio": 1.0
+      },
+      "validation_mae": 1.3223800172538527,
+      "rank": 1
+    },
+    {
+      "params": {
+        "model__alpha": 0.1,
+        "model__l1_ratio": 1.0
+      },
+      "validation_mae": 1.476159503265595,
+      "rank": 2
+    },
+    {
+      "params": {
+        "model__alpha": 1.0,
+        "model__l1_ratio": 1.0
+      },
+      "validation_mae": 1.4905322291437868,
+      "rank": 3
+    },
+    {
+      "params": {
+        "model__alpha": 0.1,
+        "model__l1_ratio": 0.9
+      },
+      "validation_mae": 1.5182779567079172,
+      "rank": 4
+    },
+    {
+      "params": {
+        "model__alpha": 0.1,
+        "model__l1_ratio": 0.7
+      },
+      "validation_mae": 1.5797469210697819,
+      "rank": 5
+    },
+    {
+      "params": {
+        "model__alpha": 0.1,
+        "model__l1_ratio": 0.5
+      },
+      "validation_mae": 1.6059472354500084,
+      "rank": 6
+    },
+    {
+      "params": {
+        "model__alpha": 0.1,
+        "model__l1_ratio": 0.3
+      },
+      "validation_mae": 1.6131746030035363,
+      "rank": 7
+    },
+    {
+      "params": {
+        "model__alpha": 0.5,
+        "model__l1_ratio": 0.9
+      },
+      "validation_mae": 1.618571715592191,
+      "rank": 8
+    },
+    {
+      "params": {
+        "model__alpha": 0.0001,
+        "model__l1_ratio": 0.5
+      },
+      "validation_mae": 1.6335155248779132,
+      "rank": 9
+    },
+    {
+      "params": {
+        "model__alpha": 0.0001,
+        "model__l1_ratio": 0.7
+      },
+      "validation_mae": 1.6338760535298964,
+      "rank": 10
+    },
+    {
+      "params": {
+        "model__alpha": 0.0001,
+        "model__l1_ratio": 0.3
+      },
+      "validation_mae": 1.6341955000102382,
+      "rank": 11
+    },
+    {
+      "params": {
+        "model__alpha": 0.0001,
+        "model__l1_ratio": 0.1
+      },
+      "validation_mae": 1.635710438765352,
+      "rank": 12
+    },
+    {
+      "params": {
+        "model__alpha": 0.0001,
+        "model__l1_ratio": 0.9
+      },
+      "validation_mae": 1.636604725061859,
+      "rank": 13
+    },
+    {
+      "params": {
+        "model__alpha": 0.0001,
+        "model__l1_ratio": 1.0
+      },
+      "validation_mae": 1.63899985028213,
+      "rank": 14
+    },
+    {
+      "params": {
+        "model__alpha": 0.1,
+        "model__l1_ratio": 0.1
+      },
+      "validation_mae": 1.6432021640378203,
+      "rank": 15
+    },
+    {
+      "params": {
+        "model__alpha": 0.01,
+        "model__l1_ratio": 0.5
+      },
+      "validation_mae": 1.6794474906077572,
+      "rank": 16
+    },
+    {
+      "params": {
+        "model__alpha": 0.01,
+        "model__l1_ratio": 0.3
+      },
+      "validation_mae": 1.684117718456898,
+      "rank": 17
+    },
+    {
+      "params": {
+        "model__alpha": 0.01,
+        "model__l1_ratio": 0.1
+      },
+      "validation_mae": 1.6886077135687132,
+      "rank": 18
+    },
+    {
+      "params": {
+        "model__alpha": 0.5,
+        "model__l1_ratio": 0.7
+      },
+      "validation_mae": 1.7002071659706843,
+      "rank": 19
+    },
+    {
+      "params": {
+        "model__alpha": 0.01,
+        "model__l1_ratio": 0.7
+      },
+      "validation_mae": 1.7298416418104765,
+      "rank": 20
+    },
+    {
+      "params": {
+        "model__alpha": 0.01,
+        "model__l1_ratio": 1.0
+      },
+      "validation_mae": 1.7594353522170316,
+      "rank": 21
+    },
+    {
+      "params": {
+        "model__alpha": 0.01,
+        "model__l1_ratio": 0.9
+      },
+      "validation_mae": 1.7605995073838614,
+      "rank": 22
+    },
+    {
+      "params": {
+        "model__alpha": 0.5,
+        "model__l1_ratio": 0.5
+      },
+      "validation_mae": 1.7607599759844876,
+      "rank": 23
+    },
+    {
+      "params": {
+        "model__alpha": 0.001,
+        "model__l1_ratio": 0.1
+      },
+      "validation_mae": 1.7765040851231475,
+      "rank": 24
+    },
+    {
+      "params": {
+        "model__alpha": 0.001,
+        "model__l1_ratio": 0.3
+      },
+      "validation_mae": 1.7851444096488536,
+      "rank": 25
+    },
+    {
+      "params": {
+        "model__alpha": 0.5,
+        "model__l1_ratio": 0.3
+      },
+      "validation_mae": 1.789436936402394,
+      "rank": 26
+    },
+    {
+      "params": {
+        "model__alpha": 0.5,
+        "model__l1_ratio": 0.1
+      },
+      "validation_mae": 1.7987245921339088,
+      "rank": 27
+    },
+    {
+      "params": {
+        "model__alpha": 0.001,
+        "model__l1_ratio": 0.5
+      },
+      "validation_mae": 1.7989937677157908,
+      "rank": 28
+    },
+    {
+      "params": {
+        "model__alpha": 1.0,
+        "model__l1_ratio": 0.9
+      },
+      "validation_mae": 1.8132646319607157,
+      "rank": 29
+    },
+    {
+      "params": {
+        "model__alpha": 0.001,
+        "model__l1_ratio": 0.7
+      },
+      "validation_mae": 1.820841739970802,
+      "rank": 30
+    }
+  ],
+  "selected": {
+    "model__alpha": 0.5,
+    "model__l1_ratio": 1.0
+  },
+  "criterion": "menor MAE médio na validação temporal"
+}
