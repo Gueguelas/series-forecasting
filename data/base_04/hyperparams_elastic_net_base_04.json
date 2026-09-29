@@ -1,0 +1,8 @@
+{
+  "base_id": "base_04",
+  "model": "elastic_net",
+  "hyperparams": {
+    "model__alpha": 0.01,
+    "model__l1_ratio": 0.9
+  }
+}
