@@ -1,0 +1,4 @@
+Etapa,Decisao,Justificativa
+Frequencia,asfreq('D'),Serie diaria continua (sem gaps na uniao treino+teste)
+Outliers meanpressure,"Fora de [990.0, 1040.0] hPa -> NaN -> interpolacao temporal","10 valores implausiveis (ex.: -3.04, 7679.33) documentados em GRUPO1.md"
+Missing residual,0 -> 0,Interpolacao temporal cobre gaps pontuais
