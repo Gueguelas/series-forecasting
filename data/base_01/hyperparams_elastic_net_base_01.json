@@ -157,7 +157,7 @@
       "l1_ratio": 0.5,
       "mae_validacao": 1.035333891,
       "status": "ok",
-      "segundos": 3.9
+      "segundos": 2.7
     },
     {
       "candidato": 15,
@@ -165,7 +165,7 @@
       "l1_ratio": 0.7,
       "mae_validacao": 1.0471448844,
       "status": "ok",
-      "segundos": 3.3
+      "segundos": 2.4
     },
     {
       "candidato": 14,
@@ -173,7 +173,7 @@
       "l1_ratio": 0.5,
       "mae_validacao": 1.0575107311,
       "status": "ok",
-      "segundos": 4.6
+      "segundos": 2.7
     },
     {
       "candidato": 19,
@@ -181,7 +181,7 @@
       "l1_ratio": 0.3,
       "mae_validacao": 1.0601581863,
       "status": "ok",
-      "segundos": 3.6
+      "segundos": 3.0
     },
     {
       "candidato": 21,
@@ -189,7 +189,7 @@
       "l1_ratio": 0.7,
       "mae_validacao": 1.0772299222,
       "status": "ok",
-      "segundos": 3.9
+      "segundos": 2.8
     },
     {
       "candidato": 13,
@@ -197,7 +197,7 @@
       "l1_ratio": 0.3,
       "mae_validacao": 1.0940380754,
       "status": "ok",
-      "segundos": 2.6
+      "segundos": 2.5
     },
     {
       "candidato": 18,
@@ -205,7 +205,7 @@
       "l1_ratio": 0.1,
       "mae_validacao": 1.1066145121,
       "status": "ok",
-      "segundos": 3.3
+      "segundos": 2.7
     },
     {
       "candidato": 12,
@@ -213,7 +213,7 @@
       "l1_ratio": 0.1,
       "mae_validacao": 1.1180398417,
       "status": "ok",
-      "segundos": 2.6
+      "segundos": 2.4
     },
     {
       "candidato": 16,
@@ -221,7 +221,7 @@
       "l1_ratio": 0.9,
       "mae_validacao": 1.1182023137,
       "status": "ok",
-      "segundos": 3.0
+      "segundos": 2.5
     },
     {
       "candidato": 17,
@@ -229,7 +229,7 @@
       "l1_ratio": 1.0,
       "mae_validacao": 1.1525166655,
       "status": "ok",
-      "segundos": 3.1
+      "segundos": 2.6
     },
     {
       "candidato": 9,
@@ -237,7 +237,7 @@
       "l1_ratio": 0.7,
       "mae_validacao": 1.1590112402,
       "status": "ok",
-      "segundos": 2.5
+      "segundos": 2.6
     },
     {
       "candidato": 8,
@@ -245,7 +245,7 @@
       "l1_ratio": 0.5,
       "mae_validacao": 1.1638858036,
       "status": "ok",
-      "segundos": 2.9
+      "segundos": 2.6
     },
     {
       "candidato": 10,
@@ -253,7 +253,7 @@
       "l1_ratio": 0.9,
       "mae_validacao": 1.1661334523,
       "status": "ok",
-      "segundos": 3.6
+      "segundos": 2.4
     },
     {
       "candidato": 7,
@@ -261,7 +261,7 @@
       "l1_ratio": 0.3,
       "mae_validacao": 1.1715920462,
       "status": "ok",
-      "segundos": 2.9
+      "segundos": 2.6
     },
     {
       "candidato": 22,
@@ -269,7 +269,7 @@
       "l1_ratio": 0.9,
       "mae_validacao": 1.1747188034,
       "status": "ok",
-      "segundos": 2.9
+      "segundos": 3.0
     },
     {
       "candidato": 11,
@@ -277,7 +277,7 @@
       "l1_ratio": 1.0,
       "mae_validacao": 1.1839782057,
       "status": "ok",
-      "segundos": 3.0
+      "segundos": 2.4
     },
     {
       "candidato": 25,
@@ -285,7 +285,7 @@
       "l1_ratio": 0.3,
       "mae_validacao": 1.1852654852,
       "status": "ok",
-      "segundos": 3.0
+      "segundos": 2.5
     },
     {
       "candidato": 6,
@@ -293,7 +293,7 @@
       "l1_ratio": 0.1,
       "mae_validacao": 1.188200585,
       "status": "ok",
-      "segundos": 2.9
+      "segundos": 2.6
     },
     {
       "candidato": 24,
@@ -309,7 +309,7 @@
       "l1_ratio": 1.0,
       "mae_validacao": 1.2013299028,
       "status": "ok",
-      "segundos": 2.8
+      "segundos": 2.9
     },
     {
       "candidato": 0,
@@ -325,7 +325,7 @@
       "l1_ratio": 0.3,
       "mae_validacao": 1.260510909,
       "status": "ok",
-      "segundos": 2.7
+      "segundos": 2.5
     },
     {
       "candidato": 2,
@@ -333,7 +333,7 @@
       "l1_ratio": 0.5,
       "mae_validacao": 1.2610391162,
       "status": "ok",
-      "segundos": 2.3
+      "segundos": 2.5
     },
     {
       "candidato": 3,
@@ -341,7 +341,7 @@
       "l1_ratio": 0.7,
       "mae_validacao": 1.2614617387,
       "status": "ok",
-      "segundos": 3.0
+      "segundos": 2.7
     },
     {
       "candidato": 4,
@@ -349,7 +349,7 @@
       "l1_ratio": 0.9,
       "mae_validacao": 1.2620088451,
       "status": "ok",
-      "segundos": 2.2
+      "segundos": 2.5
     },
     {
       "candidato": 5,
@@ -357,7 +357,7 @@
       "l1_ratio": 1.0,
       "mae_validacao": 1.2625587405,
       "status": "ok",
-      "segundos": 2.8
+      "segundos": 2.9
     },
     {
       "candidato": 26,
@@ -365,7 +365,7 @@
       "l1_ratio": 0.5,
       "mae_validacao": 1.2626691503,
       "status": "ok",
-      "segundos": 3.3
+      "segundos": 2.3
     },
     {
       "candidato": 27,
@@ -373,7 +373,7 @@
       "l1_ratio": 0.7,
       "mae_validacao": 1.2876644098,
       "status": "ok",
-      "segundos": 2.6
+      "segundos": 2.3
     },
     {
       "candidato": 28,
@@ -381,7 +381,7 @@
       "l1_ratio": 0.9,
       "mae_validacao": 1.3095809533,
       "status": "ok",
-      "segundos": 2.5
+      "segundos": 2.3
     },
     {
       "candidato": 29,
@@ -389,7 +389,7 @@
       "l1_ratio": 1.0,
       "mae_validacao": 1.3390723038,
       "status": "ok",
-      "segundos": 2.7
+      "segundos": 2.3
     },
     {
       "candidato": 30,
@@ -397,7 +397,7 @@
       "l1_ratio": 0.1,
       "mae_validacao": 1.6646768073,
       "status": "ok",
-      "segundos": 2.9
+      "segundos": 2.2
     },
     {
       "candidato": 32,
@@ -405,7 +405,7 @@
       "l1_ratio": 0.5,
       "mae_validacao": 1.699227882,
       "status": "ok",
-      "segundos": 2.6
+      "segundos": 2.5
     },
     {
       "candidato": 31,
@@ -413,7 +413,7 @@
       "l1_ratio": 0.3,
       "mae_validacao": 1.7177763932,
       "status": "ok",
-      "segundos": 2.5
+      "segundos": 2.4
     },
     {
       "candidato": 33,
@@ -429,7 +429,7 @@
       "l1_ratio": 0.9,
       "mae_validacao": 1.9241150549,
       "status": "ok",
-      "segundos": 2.6
+      "segundos": 2.2
     },
     {
       "candidato": 35,
@@ -437,7 +437,7 @@
       "l1_ratio": 1.0,
       "mae_validacao": 2.3761248912,
       "status": "ok",
-      "segundos": 2.3
+      "segundos": 1.9
     }
   ]
 }

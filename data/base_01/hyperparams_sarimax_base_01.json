@@ -704,7 +704,7 @@
       "bic": 5253.1801210188,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 17.2,
+      "segundos": 7.9,
       "etapa": 1
     },
     {
@@ -728,7 +728,7 @@
       "bic": 5245.2939958964,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 20.2,
+      "segundos": 7.3,
       "etapa": 1
     },
     {
@@ -752,7 +752,7 @@
       "bic": 5228.7757889953,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 35.7,
+      "segundos": 15.6,
       "etapa": 1
     },
     {
@@ -776,7 +776,7 @@
       "bic": 5230.9087844875,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 15.2,
+      "segundos": 7.6,
       "etapa": 1
     },
     {
@@ -800,7 +800,7 @@
       "bic": 5188.4435547472,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 52.0,
+      "segundos": 27.7,
       "etapa": 1
     },
     {
@@ -824,7 +824,7 @@
       "bic": 5088.3918468316,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 122.0,
+      "segundos": 49.1,
       "etapa": 1
     },
     {
@@ -848,7 +848,7 @@
       "bic": 5081.369526338,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 62.3,
+      "segundos": 24.2,
       "etapa": 1
     },
     {
@@ -872,7 +872,7 @@
       "bic": 5082.0755186326,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 88.8,
+      "segundos": 33.2,
       "etapa": 1
     },
     {
@@ -896,7 +896,7 @@
       "bic": 5088.3802827653,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 92.7,
+      "segundos": 35.0,
       "etapa": 1
     },
     {
@@ -920,7 +920,7 @@
       "bic": 5105.9446514718,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 97.2,
+      "segundos": 43.0,
       "etapa": 1
     },
     {
@@ -944,7 +944,7 @@
       "bic": 5096.1894739739,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 115.3,
+      "segundos": 45.6,
       "etapa": 1
     },
     {
@@ -968,7 +968,7 @@
       "bic": 5098.9420808801,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 60.0,
+      "segundos": 26.9,
       "etapa": 1
     },
     {
@@ -992,7 +992,7 @@
       "bic": 5088.4644242115,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 50.8,
+      "segundos": 24.7,
       "etapa": 1
     },
     {
@@ -1016,7 +1016,7 @@
       "bic": 5091.7814128119,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 91.8,
+      "segundos": 34.0,
       "etapa": 1
     },
     {
@@ -1040,7 +1040,7 @@
       "bic": 5091.7423542556,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 61.1,
+      "segundos": 22.8,
       "etapa": 1
     },
     {
@@ -1064,7 +1064,7 @@
       "bic": 5235.2463705242,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 81.8,
+      "segundos": 36.4,
       "etapa": 1
     },
     {
@@ -1088,7 +1088,7 @@
       "bic": 5861.6791246041,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 54.1,
+      "segundos": 24.4,
       "etapa": 1
     },
     {
@@ -1112,7 +1112,7 @@
       "bic": 5458.2045594808,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 89.6,
+      "segundos": 38.8,
       "etapa": 1
     },
     {
@@ -1136,7 +1136,7 @@
       "bic": 5253.1801210188,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 22.4,
+      "segundos": 7.8,
       "etapa": 2
     },
     {
@@ -1160,7 +1160,7 @@
       "bic": 5281.2287274511,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 28.1,
+      "segundos": 12.4,
       "etapa": 2
     },
     {
@@ -1184,7 +1184,7 @@
       "bic": 5266.929391429,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 28.7,
+      "segundos": 10.4,
       "etapa": 2
     },
     {
@@ -1208,7 +1208,7 @@
       "bic": 5241.5762427141,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 20.3,
+      "segundos": 6.6,
       "etapa": 2
     },
     {
@@ -1232,7 +1232,7 @@
       "bic": 5233.6757319741,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 14.2,
+      "segundos": 4.7,
       "etapa": 2
     },
     {
@@ -1256,7 +1256,7 @@
       "bic": 4487.5573657471,
       "n_obs": 981,
       "status": "ok",
-      "segundos": 9.5,
+      "segundos": 4.5,
       "etapa": 2
     },
     {
@@ -1280,7 +1280,7 @@
       "bic": 5226.7825426106,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 37.6,
+      "segundos": 27.0,
       "etapa": 3
     },
     {
@@ -1304,7 +1304,7 @@
       "bic": 5221.5300818081,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 17.6,
+      "segundos": 10.1,
       "etapa": 3
     },
     {
@@ -1328,7 +1328,7 @@
       "bic": 5226.9289685254,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 13.9,
+      "segundos": 9.3,
       "etapa": 3
     },
     {
@@ -1352,7 +1352,7 @@
       "bic": 5253.1801210188,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 20.7,
+      "segundos": 9.3,
       "etapa": 3
     },
     {
@@ -1376,7 +1376,7 @@
       "bic": 5129.5669634158,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 175.7,
+      "segundos": 570.7,
       "etapa": 3
     },
     {
@@ -1400,7 +1400,7 @@
       "bic": 5235.245689122,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 198.6,
+      "segundos": 90.0,
       "etapa": 3
     },
     {
@@ -1424,7 +1424,7 @@
       "bic": 5133.0728437869,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 170.7,
+      "segundos": 349.4,
       "etapa": 3
     },
     {
@@ -1448,7 +1448,7 @@
       "bic": 5126.4287943082,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 172.8,
+      "segundos": 626.7,
       "etapa": 3
     },
     {
@@ -1472,7 +1472,7 @@
       "bic": 5230.2707207954,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 119.0,
+      "segundos": 75.4,
       "etapa": 3
     },
     {
@@ -1496,7 +1496,7 @@
       "bic": 5109.7676368613,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 753.6,
+      "segundos": 1013.8,
       "etapa": 3
     },
     {
@@ -1520,7 +1520,7 @@
       "bic": 5115.7469731089,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 847.1,
+      "segundos": 990.0,
       "etapa": 3
     },
     {
@@ -1544,7 +1544,7 @@
       "bic": 5545.7186993035,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 527.9,
+      "segundos": 741.3,
       "etapa": 3
     },
     {
@@ -1568,7 +1568,7 @@
       "bic": 5742.7488809005,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 31.2,
+      "segundos": 19.5,
       "etapa": 3
     },
     {
@@ -1592,7 +1592,7 @@
       "bic": 6014.238131129,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 221.7,
+      "segundos": 699.7,
       "etapa": 3
     },
     {
@@ -1616,7 +1616,7 @@
       "bic": 6171.8207738582,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 36.9,
+      "segundos": 18.0,
       "etapa": 3
     },
     {
@@ -1640,7 +1640,7 @@
       "bic": 5240.6663589906,
       "n_obs": 1347,
       "status": "ok",
-      "segundos": 14.7,
+      "segundos": 10.8,
       "etapa": 4
     },
     {
@@ -1664,7 +1664,7 @@
       "bic": 5226.7825426106,
       "n_obs": 1346,
       "status": "ok",
-      "segundos": 17.9,
+      "segundos": 14.5,
       "etapa": 4
     }
   ]
