@@ -1,349 +1,97 @@
 {
   "base_id": "base_02",
-  "dataset": "DailyClimate",
   "model": "random_forest",
-  "method": "GridSearchCV + TimeSeriesSplit(n_splits=5)",
-  "tuning_end": "2017-02-20",
-  "test_start": "2017-02-21",
-  "n_candidates": 48,
+  "method": "GridSearchCV + TimeSeriesSplit(5)",
+  "tuning_end": "2026-06-19",
+  "test_start": "2026-06-22",
+  "n_candidates": 8,
   "search_results": [
     {
       "params": {
-        "max_depth": null,
+        "max_depth": 16,
         "max_features": 0.7,
-        "min_samples_leaf": 3,
-        "min_samples_split": 5,
-        "n_estimators": 200
+        "min_samples_leaf": 1,
+        "n_estimators": 80
       },
-      "validation_mae": 1.376078710694062,
+      "validation_mae": 1.9088000336145314,
       "rank": 1
     },
     {
       "params": {
-        "max_depth": null,
+        "max_depth": 8,
         "max_features": 0.7,
-        "min_samples_leaf": 3,
-        "min_samples_split": 2,
-        "n_estimators": 200
+        "min_samples_leaf": 1,
+        "n_estimators": 80
       },
-      "validation_mae": 1.376078710694062,
-      "rank": 1
+      "validation_mae": 1.9180389777314164,
+      "rank": 2
     },
     {
       "params": {
         "max_depth": 16,
         "max_features": 0.7,
         "min_samples_leaf": 3,
-        "min_samples_split": 5,
-        "n_estimators": 200
+        "n_estimators": 80
       },
-      "validation_mae": 1.377228707830585,
+      "validation_mae": 1.924054450830485,
       "rank": 3
     },
     {
       "params": {
-        "max_depth": 16,
+        "max_depth": 8,
         "max_features": 0.7,
         "min_samples_leaf": 3,
-        "min_samples_split": 2,
-        "n_estimators": 200
+        "n_estimators": 80
       },
-      "validation_mae": 1.377228707830585,
-      "rank": 3
-    },
-    {
-      "params": {
-        "max_depth": null,
-        "max_features": 0.7,
-        "min_samples_leaf": 3,
-        "min_samples_split": 5,
-        "n_estimators": 400
-      },
-      "validation_mae": 1.3778943590349537,
-      "rank": 5
-    },
-    {
-      "params": {
-        "max_depth": null,
-        "max_features": 0.7,
-        "min_samples_leaf": 3,
-        "min_samples_split": 2,
-        "n_estimators": 400
-      },
-      "validation_mae": 1.3778943590349537,
-      "rank": 5
+      "validation_mae": 1.9300106838126765,
+      "rank": 4
     },
     {
       "params": {
         "max_depth": 16,
-        "max_features": 0.7,
-        "min_samples_leaf": 3,
-        "min_samples_split": 5,
-        "n_estimators": 400
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "n_estimators": 80
       },
-      "validation_mae": 1.3783584304641523,
+      "validation_mae": 2.1350767619336506,
+      "rank": 5
+    },
+    {
+      "params": {
+        "max_depth": 8,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "n_estimators": 80
+      },
+      "validation_mae": 2.1501672086557364,
+      "rank": 6
+    },
+    {
+      "params": {
+        "max_depth": 8,
+        "max_features": "sqrt",
+        "min_samples_leaf": 3,
+        "n_estimators": 80
+      },
+      "validation_mae": 2.1557831538585304,
       "rank": 7
     },
     {
       "params": {
         "max_depth": 16,
-        "max_features": 0.7,
-        "min_samples_leaf": 3,
-        "min_samples_split": 2,
-        "n_estimators": 400
-      },
-      "validation_mae": 1.3783584304641523,
-      "rank": 7
-    },
-    {
-      "params": {
-        "max_depth": 8,
-        "max_features": 0.7,
-        "min_samples_leaf": 3,
-        "min_samples_split": 2,
-        "n_estimators": 400
-      },
-      "validation_mae": 1.3790457022308247,
-      "rank": 9
-    },
-    {
-      "params": {
-        "max_depth": 8,
-        "max_features": 0.7,
-        "min_samples_leaf": 3,
-        "min_samples_split": 5,
-        "n_estimators": 400
-      },
-      "validation_mae": 1.3790457022308247,
-      "rank": 9
-    },
-    {
-      "params": {
-        "max_depth": 8,
-        "max_features": 0.7,
-        "min_samples_leaf": 3,
-        "min_samples_split": 2,
-        "n_estimators": 200
-      },
-      "validation_mae": 1.3793554051455765,
-      "rank": 11
-    },
-    {
-      "params": {
-        "max_depth": 8,
-        "max_features": 0.7,
-        "min_samples_leaf": 3,
-        "min_samples_split": 5,
-        "n_estimators": 200
-      },
-      "validation_mae": 1.3793554051455765,
-      "rank": 11
-    },
-    {
-      "params": {
-        "max_depth": 8,
-        "max_features": 0.7,
-        "min_samples_leaf": 1,
-        "min_samples_split": 5,
-        "n_estimators": 400
-      },
-      "validation_mae": 1.3805942763422119,
-      "rank": 13
-    },
-    {
-      "params": {
-        "max_depth": 16,
-        "max_features": 0.7,
-        "min_samples_leaf": 1,
-        "min_samples_split": 5,
-        "n_estimators": 400
-      },
-      "validation_mae": 1.3853481809916393,
-      "rank": 14
-    },
-    {
-      "params": {
-        "max_depth": 16,
-        "max_features": 0.7,
-        "min_samples_leaf": 1,
-        "min_samples_split": 2,
-        "n_estimators": 400
-      },
-      "validation_mae": 1.3856180490706327,
-      "rank": 15
-    },
-    {
-      "params": {
-        "max_depth": null,
-        "max_features": 0.7,
-        "min_samples_leaf": 1,
-        "min_samples_split": 5,
-        "n_estimators": 400
-      },
-      "validation_mae": 1.3872210781216534,
-      "rank": 16
-    },
-    {
-      "params": {
-        "max_depth": null,
-        "max_features": 0.7,
-        "min_samples_leaf": 1,
-        "min_samples_split": 2,
-        "n_estimators": 400
-      },
-      "validation_mae": 1.3889648859717798,
-      "rank": 17
-    },
-    {
-      "params": {
-        "max_depth": 8,
-        "max_features": 0.7,
-        "min_samples_leaf": 1,
-        "min_samples_split": 2,
-        "n_estimators": 200
-      },
-      "validation_mae": 1.3933726562224993,
-      "rank": 18
-    },
-    {
-      "params": {
-        "max_depth": 8,
-        "max_features": 0.7,
-        "min_samples_leaf": 1,
-        "min_samples_split": 2,
-        "n_estimators": 400
-      },
-      "validation_mae": 1.3936821350307418,
-      "rank": 19
-    },
-    {
-      "params": {
-        "max_depth": 16,
-        "max_features": 0.7,
-        "min_samples_leaf": 1,
-        "min_samples_split": 2,
-        "n_estimators": 200
-      },
-      "validation_mae": 1.3944365092730633,
-      "rank": 20
-    },
-    {
-      "params": {
-        "max_depth": null,
-        "max_features": 0.7,
-        "min_samples_leaf": 1,
-        "min_samples_split": 2,
-        "n_estimators": 200
-      },
-      "validation_mae": 1.3989728942861412,
-      "rank": 21
-    },
-    {
-      "params": {
-        "max_depth": 16,
-        "max_features": 0.7,
-        "min_samples_leaf": 1,
-        "min_samples_split": 5,
-        "n_estimators": 200
-      },
-      "validation_mae": 1.3999210380408074,
-      "rank": 22
-    },
-    {
-      "params": {
-        "max_depth": null,
-        "max_features": 0.7,
-        "min_samples_leaf": 1,
-        "min_samples_split": 5,
-        "n_estimators": 200
-      },
-      "validation_mae": 1.4010693297783696,
-      "rank": 23
-    },
-    {
-      "params": {
-        "max_depth": 8,
-        "max_features": 0.7,
-        "min_samples_leaf": 1,
-        "min_samples_split": 5,
-        "n_estimators": 200
-      },
-      "validation_mae": 1.4013084937849256,
-      "rank": 24
-    },
-    {
-      "params": {
-        "max_depth": 8,
         "max_features": "sqrt",
         "min_samples_leaf": 3,
-        "min_samples_split": 5,
-        "n_estimators": 200
+        "n_estimators": 80
       },
-      "validation_mae": 1.5208679377492462,
-      "rank": 25
-    },
-    {
-      "params": {
-        "max_depth": 8,
-        "max_features": "sqrt",
-        "min_samples_leaf": 3,
-        "min_samples_split": 2,
-        "n_estimators": 200
-      },
-      "validation_mae": 1.5208679377492462,
-      "rank": 25
-    },
-    {
-      "params": {
-        "max_depth": 16,
-        "max_features": "sqrt",
-        "min_samples_leaf": 1,
-        "min_samples_split": 2,
-        "n_estimators": 200
-      },
-      "validation_mae": 1.527277620942208,
-      "rank": 27
-    },
-    {
-      "params": {
-        "max_depth": null,
-        "max_features": "sqrt",
-        "min_samples_leaf": 1,
-        "min_samples_split": 2,
-        "n_estimators": 200
-      },
-      "validation_mae": 1.5275520410772239,
-      "rank": 28
-    },
-    {
-      "params": {
-        "max_depth": null,
-        "max_features": "sqrt",
-        "min_samples_leaf": 1,
-        "min_samples_split": 2,
-        "n_estimators": 400
-      },
-      "validation_mae": 1.5330526891886274,
-      "rank": 29
-    },
-    {
-      "params": {
-        "max_depth": 8,
-        "max_features": "sqrt",
-        "min_samples_leaf": 1,
-        "min_samples_split": 2,
-        "n_estimators": 200
-      },
-      "validation_mae": 1.5331496888835243,
-      "rank": 30
+      "validation_mae": 2.1622780694085924,
+      "rank": 8
     }
   ],
   "selected": {
-    "max_depth": null,
+    "max_depth": 16,
     "max_features": 0.7,
-    "min_samples_leaf": 3,
-    "min_samples_split": 2,
-    "n_estimators": 200
+    "min_samples_leaf": 1,
+    "n_estimators": 80
   },
-  "criterion": "menor MAE médio na validação temporal"
+  "criterion": "menor MAE médio na validação temporal; Elastic Net otimiza o gap Open - close_lag_1"
 }

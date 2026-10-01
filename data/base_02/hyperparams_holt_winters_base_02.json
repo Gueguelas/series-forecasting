@@ -1,50 +1,19 @@
 {
   "base_id": "base_02",
-  "dataset": "DailyClimate",
   "model": "holt_winters",
-  "method": "expanding temporal grid search",
-  "tuning_end": "2017-02-20",
-  "test_start": "2017-02-21",
-  "n_candidates": 15,
+  "method": "validação temporal expansiva",
+  "tuning_end": "2026-06-19",
+  "test_start": "2026-06-22",
+  "n_candidates": 9,
   "search_results": [
     {
       "params": {
         "trend": "add",
-        "damped_trend": false,
-        "seasonal": "add",
-        "seasonal_periods": 7
-      },
-      "validation_mae": 0.6214604527424199,
-      "n_failed_origins": 0
-    },
-    {
-      "params": {
-        "trend": "add",
-        "damped_trend": false,
+        "damped_trend": true,
         "seasonal": null,
         "seasonal_periods": null
       },
-      "validation_mae": 0.623969193275566,
-      "n_failed_origins": 0
-    },
-    {
-      "params": {
-        "trend": null,
-        "damped_trend": false,
-        "seasonal": "add",
-        "seasonal_periods": 7
-      },
-      "validation_mae": 0.6240637275470058,
-      "n_failed_origins": 0
-    },
-    {
-      "params": {
-        "trend": "add",
-        "damped_trend": true,
-        "seasonal": "add",
-        "seasonal_periods": 7
-      },
-      "validation_mae": 0.6262644262242052,
+      "validation_mae": 0.2443481868582739,
       "n_failed_origins": 0
     },
     {
@@ -54,67 +23,17 @@
         "seasonal": null,
         "seasonal_periods": null
       },
-      "validation_mae": 0.6265082231372356,
+      "validation_mae": 0.248493660044371,
       "n_failed_origins": 0
     },
     {
       "params": {
         "trend": "add",
-        "damped_trend": true,
+        "damped_trend": false,
         "seasonal": null,
         "seasonal_periods": null
       },
-      "validation_mae": 0.6284839044263943,
-      "n_failed_origins": 0
-    },
-    {
-      "params": {
-        "trend": "add",
-        "damped_trend": false,
-        "seasonal": "mul",
-        "seasonal_periods": 7
-      },
-      "validation_mae": 0.6402087549958524,
-      "n_failed_origins": 0
-    },
-    {
-      "params": {
-        "trend": null,
-        "damped_trend": false,
-        "seasonal": "mul",
-        "seasonal_periods": 7
-      },
-      "validation_mae": 0.6427261275805312,
-      "n_failed_origins": 0
-    },
-    {
-      "params": {
-        "trend": "add",
-        "damped_trend": true,
-        "seasonal": "mul",
-        "seasonal_periods": 7
-      },
-      "validation_mae": 0.6445855746936497,
-      "n_failed_origins": 0
-    },
-    {
-      "params": {
-        "trend": null,
-        "damped_trend": false,
-        "seasonal": "add",
-        "seasonal_periods": 365
-      },
-      "validation_mae": 1.5277647960754797,
-      "n_failed_origins": 0
-    },
-    {
-      "params": {
-        "trend": "add",
-        "damped_trend": false,
-        "seasonal": "add",
-        "seasonal_periods": 365
-      },
-      "validation_mae": 1.5554268324422402,
+      "validation_mae": 0.24903142749335672,
       "n_failed_origins": 0
     },
     {
@@ -122,47 +41,67 @@
         "trend": "add",
         "damped_trend": true,
         "seasonal": "add",
-        "seasonal_periods": 365
+        "seasonal_periods": 5
       },
-      "validation_mae": 1.612971596164536,
-      "n_failed_origins": 0
-    },
-    {
-      "params": {
-        "trend": "add",
-        "damped_trend": false,
-        "seasonal": "mul",
-        "seasonal_periods": 365
-      },
-      "validation_mae": 1.6845570850554843,
-      "n_failed_origins": 0
-    },
-    {
-      "params": {
-        "trend": "add",
-        "damped_trend": true,
-        "seasonal": "mul",
-        "seasonal_periods": 365
-      },
-      "validation_mae": 1.6906708473152783,
+      "validation_mae": 0.2611866829069882,
       "n_failed_origins": 0
     },
     {
       "params": {
         "trend": null,
         "damped_trend": false,
-        "seasonal": "mul",
-        "seasonal_periods": 365
+        "seasonal": "add",
+        "seasonal_periods": 5
       },
-      "validation_mae": 1.6949066411882927,
+      "validation_mae": 0.2630729316484081,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "trend": "add",
+        "damped_trend": false,
+        "seasonal": "add",
+        "seasonal_periods": 5
+      },
+      "validation_mae": 0.26363672182913805,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "trend": "add",
+        "damped_trend": false,
+        "seasonal": "add",
+        "seasonal_periods": 21
+      },
+      "validation_mae": 0.2729770947988648,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "trend": null,
+        "damped_trend": false,
+        "seasonal": "add",
+        "seasonal_periods": 21
+      },
+      "validation_mae": 0.2743422743478128,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "trend": "add",
+        "damped_trend": true,
+        "seasonal": "add",
+        "seasonal_periods": 21
+      },
+      "validation_mae": 0.2794603648066622,
       "n_failed_origins": 0
     }
   ],
   "selected": {
     "trend": "add",
-    "damped_trend": false,
-    "seasonal": "add",
-    "seasonal_periods": 7
+    "damped_trend": true,
+    "seasonal": null,
+    "seasonal_periods": null
   },
-  "criterion": "menor MAE médio na validação temporal"
+  "criterion": "menor MAE médio na validação temporal; Elastic Net otimiza o gap Open - close_lag_1"
 }
