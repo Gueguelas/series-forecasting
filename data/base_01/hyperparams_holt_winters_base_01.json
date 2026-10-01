@@ -1,0 +1,454 @@
+{
+  "search_space": [
+    {
+      "trend": null,
+      "damped": false,
+      "seasonal": null,
+      "seasonal_periods": null
+    },
+    {
+      "trend": null,
+      "damped": false,
+      "seasonal": "add",
+      "seasonal_periods": 7
+    },
+    {
+      "trend": null,
+      "damped": false,
+      "seasonal": "mul",
+      "seasonal_periods": 7
+    },
+    {
+      "trend": null,
+      "damped": false,
+      "seasonal": "add",
+      "seasonal_periods": 30
+    },
+    {
+      "trend": null,
+      "damped": false,
+      "seasonal": "mul",
+      "seasonal_periods": 30
+    },
+    {
+      "trend": null,
+      "damped": false,
+      "seasonal": "add",
+      "seasonal_periods": 365
+    },
+    {
+      "trend": null,
+      "damped": false,
+      "seasonal": "mul",
+      "seasonal_periods": 365
+    },
+    {
+      "trend": "add",
+      "damped": false,
+      "seasonal": null,
+      "seasonal_periods": null
+    },
+    {
+      "trend": "add",
+      "damped": false,
+      "seasonal": "add",
+      "seasonal_periods": 7
+    },
+    {
+      "trend": "add",
+      "damped": false,
+      "seasonal": "mul",
+      "seasonal_periods": 7
+    },
+    {
+      "trend": "add",
+      "damped": false,
+      "seasonal": "add",
+      "seasonal_periods": 30
+    },
+    {
+      "trend": "add",
+      "damped": false,
+      "seasonal": "mul",
+      "seasonal_periods": 30
+    },
+    {
+      "trend": "add",
+      "damped": false,
+      "seasonal": "add",
+      "seasonal_periods": 365
+    },
+    {
+      "trend": "add",
+      "damped": false,
+      "seasonal": "mul",
+      "seasonal_periods": 365
+    },
+    {
+      "trend": "add",
+      "damped": true,
+      "seasonal": null,
+      "seasonal_periods": null
+    },
+    {
+      "trend": "add",
+      "damped": true,
+      "seasonal": "add",
+      "seasonal_periods": 7
+    },
+    {
+      "trend": "add",
+      "damped": true,
+      "seasonal": "mul",
+      "seasonal_periods": 7
+    },
+    {
+      "trend": "add",
+      "damped": true,
+      "seasonal": "add",
+      "seasonal_periods": 30
+    },
+    {
+      "trend": "add",
+      "damped": true,
+      "seasonal": "mul",
+      "seasonal_periods": 30
+    },
+    {
+      "trend": "add",
+      "damped": true,
+      "seasonal": "add",
+      "seasonal_periods": 365
+    },
+    {
+      "trend": "add",
+      "damped": true,
+      "seasonal": "mul",
+      "seasonal_periods": 365
+    }
+  ],
+  "final": {
+    "trend": "add",
+    "damped": false,
+    "seasonal": "add",
+    "seasonal_periods": 365
+  },
+  "mae_validacao": 1.2038898657396349,
+  "tuning_results": [
+    {
+      "candidato": 8,
+      "trend": "add",
+      "damped": false,
+      "seasonal": "add",
+      "seasonal_periods": 7.0,
+      "mae_validacao": 0.9791224192,
+      "aic": 1491.2666475553,
+      "bic": 1548.5286344958,
+      "alpha": 0.752276561,
+      "beta": 0.013846021,
+      "gamma": 0.0360147051,
+      "status": "ok",
+      "segundos": 3.5
+    },
+    {
+      "candidato": 7,
+      "trend": "add",
+      "damped": false,
+      "seasonal": null,
+      "seasonal_periods": null,
+      "mae_validacao": 1.0269353377,
+      "aic": 1401.7899801847,
+      "bic": 1422.6125208904,
+      "alpha": 0.7930591626,
+      "beta": 0.0061434762,
+      "gamma": null,
+      "status": "ok",
+      "segundos": 0.8
+    },
+    {
+      "candidato": 9,
+      "trend": "add",
+      "damped": false,
+      "seasonal": "mul",
+      "seasonal_periods": 7.0,
+      "mae_validacao": 1.082364737,
+      "aic": 1597.0288457084,
+      "bic": 1654.2908326489,
+      "alpha": 0.6790966562,
+      "beta": 0.014779706,
+      "gamma": 0.099500108,
+      "status": "ok",
+      "segundos": 3.4
+    },
+    {
+      "candidato": 1,
+      "trend": null,
+      "damped": false,
+      "seasonal": "add",
+      "seasonal_periods": 7.0,
+      "mae_validacao": 1.0964338973,
+      "aic": 1465.3444206897,
+      "bic": 1512.1951372774,
+      "alpha": 0.745227021,
+      "beta": null,
+      "gamma": 0.0360741411,
+      "status": "ok",
+      "segundos": 0.6
+    },
+    {
+      "candidato": 0,
+      "trend": null,
+      "damped": false,
+      "seasonal": null,
+      "seasonal_periods": null,
+      "mae_validacao": 1.0967911789,
+      "aic": 1388.552858296,
+      "bic": 1398.9641286488,
+      "alpha": 0.7901880999,
+      "beta": null,
+      "gamma": null,
+      "status": "ok",
+      "segundos": 0.2
+    },
+    {
+      "candidato": 15,
+      "trend": "add",
+      "damped": true,
+      "seasonal": "add",
+      "seasonal_periods": 7.0,
+      "mae_validacao": 1.0972954032,
+      "aic": 1469.1944190179,
+      "bic": 1531.6620411349,
+      "alpha": 0.7434383849,
+      "beta": 0.0,
+      "gamma": 0.0361082298,
+      "status": "ok",
+      "segundos": 3.6
+    },
+    {
+      "candidato": 14,
+      "trend": "add",
+      "damped": true,
+      "seasonal": null,
+      "seasonal_periods": null,
+      "mae_validacao": 1.0974326924,
+      "aic": 1392.0396211831,
+      "bic": 1418.0677970652,
+      "alpha": 0.7869971146,
+      "beta": 0.0,
+      "gamma": null,
+      "status": "ok",
+      "segundos": 0.7
+    },
+    {
+      "candidato": 10,
+      "trend": "add",
+      "damped": false,
+      "seasonal": "add",
+      "seasonal_periods": 30.0,
+      "mae_validacao": 1.1005904742,
+      "aic": 1581.9352199309,
+      "bic": 1758.9268159288,
+      "alpha": 0.7968543362,
+      "beta": 0.0039879229,
+      "gamma": 0.0624042229,
+      "status": "ok",
+      "segundos": 3.2
+    },
+    {
+      "candidato": 11,
+      "trend": "add",
+      "damped": false,
+      "seasonal": "mul",
+      "seasonal_periods": 30.0,
+      "mae_validacao": 1.1187059238,
+      "aic": 1684.1835878406,
+      "bic": 1861.1751838385,
+      "alpha": 0.776261787,
+      "beta": 0.0037362851,
+      "gamma": 0.0623234104,
+      "status": "ok",
+      "segundos": 3.3
+    },
+    {
+      "candidato": 3,
+      "trend": null,
+      "damped": false,
+      "seasonal": "add",
+      "seasonal_periods": 30.0,
+      "mae_validacao": 1.1188076222,
+      "aic": 1569.6397538946,
+      "bic": 1736.2200795397,
+      "alpha": 0.793134209,
+      "beta": null,
+      "gamma": 0.0627426772,
+      "status": "ok",
+      "segundos": 0.4
+    },
+    {
+      "candidato": 17,
+      "trend": "add",
+      "damped": true,
+      "seasonal": "add",
+      "seasonal_periods": 30.0,
+      "mae_validacao": 1.1198211675,
+      "aic": 1574.5293788782,
+      "bic": 1756.7266100525,
+      "alpha": 0.7912080804,
+      "beta": 0.0,
+      "gamma": 0.0628456592,
+      "status": "ok",
+      "segundos": 3.4
+    },
+    {
+      "candidato": 4,
+      "trend": null,
+      "damped": false,
+      "seasonal": "mul",
+      "seasonal_periods": 30.0,
+      "mae_validacao": 1.1289799565,
+      "aic": 1671.7012094435,
+      "bic": 1838.2815350886,
+      "alpha": 0.7716026153,
+      "beta": null,
+      "gamma": 0.061521951,
+      "status": "ok",
+      "segundos": 0.5
+    },
+    {
+      "candidato": 18,
+      "trend": "add",
+      "damped": true,
+      "seasonal": "mul",
+      "seasonal_periods": 30.0,
+      "mae_validacao": 1.1359382252,
+      "aic": 1674.3701176086,
+      "bic": 1856.5673487829,
+      "alpha": 0.7674697893,
+      "beta": 0.0,
+      "gamma": 0.0623970182,
+      "status": "ok",
+      "segundos": 3.6
+    },
+    {
+      "candidato": 12,
+      "trend": "add",
+      "damped": false,
+      "seasonal": "add",
+      "seasonal_periods": 365.0,
+      "mae_validacao": 1.2038898657,
+      "aic": 2056.098699971,
+      "bic": 3976.9780800664,
+      "alpha": 0.8080518939,
+      "beta": 0.0,
+      "gamma": 0.0,
+      "status": "ok",
+      "segundos": 3.3
+    },
+    {
+      "candidato": 19,
+      "trend": "add",
+      "damped": true,
+      "seasonal": "add",
+      "seasonal_periods": 365.0,
+      "mae_validacao": 1.214553303,
+      "aic": 2058.0088238229,
+      "bic": 3984.0938390947,
+      "alpha": 0.8079311392,
+      "beta": 0.0,
+      "gamma": 0.0,
+      "status": "ok",
+      "segundos": 3.3
+    },
+    {
+      "candidato": 5,
+      "trend": null,
+      "damped": false,
+      "seasonal": "add",
+      "seasonal_periods": 365.0,
+      "mae_validacao": 1.2145563057,
+      "aic": 2052.0146702467,
+      "bic": 3962.4827799893,
+      "alpha": 0.8079597278,
+      "beta": null,
+      "gamma": 0.0,
+      "status": "ok",
+      "segundos": 0.4
+    },
+    {
+      "candidato": 2,
+      "trend": null,
+      "damped": false,
+      "seasonal": "mul",
+      "seasonal_periods": 7.0,
+      "mae_validacao": 1.2430858278,
+      "aic": 1567.8722862568,
+      "bic": 1614.7230028445,
+      "alpha": 0.6690604191,
+      "beta": null,
+      "gamma": 0.0971884622,
+      "status": "ok",
+      "segundos": 0.5
+    },
+    {
+      "candidato": 16,
+      "trend": "add",
+      "damped": true,
+      "seasonal": "mul",
+      "seasonal_periods": 7.0,
+      "mae_validacao": 1.2433722809,
+      "aic": 1569.2389712638,
+      "bic": 1631.7065933807,
+      "alpha": 0.6692592273,
+      "beta": 0.0,
+      "gamma": 0.097356192,
+      "status": "ok",
+      "segundos": 3.5
+    },
+    {
+      "candidato": 13,
+      "trend": "add",
+      "damped": false,
+      "seasonal": "mul",
+      "seasonal_periods": 365.0,
+      "mae_validacao": 1.3262631625,
+      "aic": 2083.016237792,
+      "bic": 4003.8956178874,
+      "alpha": 0.8155361122,
+      "beta": 0.0,
+      "gamma": 0.0,
+      "status": "ok",
+      "segundos": 3.4
+    },
+    {
+      "candidato": 6,
+      "trend": null,
+      "damped": false,
+      "seasonal": "mul",
+      "seasonal_periods": 365.0,
+      "mae_validacao": 1.3316412955,
+      "aic": 2078.2729757654,
+      "bic": 3988.741085508,
+      "alpha": 0.8146538152,
+      "beta": null,
+      "gamma": 0.0,
+      "status": "ok",
+      "segundos": 0.4
+    },
+    {
+      "candidato": 20,
+      "trend": "add",
+      "damped": true,
+      "seasonal": "mul",
+      "seasonal_periods": 365.0,
+      "mae_validacao": 1.3316433479,
+      "aic": 2084.293226043,
+      "bic": 4010.3782413149,
+      "alpha": 0.8146647404,
+      "beta": 0.0,
+      "gamma": 0.0,
+      "status": "ok",
+      "segundos": 3.3
+    }
+  ]
+}

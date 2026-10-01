@@ -1,0 +1,5 @@
+modelo,mae,n_previsoes,ranking
+elastic_net,1.8912870900331173,112,1
+random_forest,2.005171955397327,112,2
+sarimax,2.1377100377481777,112,3
+holt_winters,2.2238845455345917,112,4
