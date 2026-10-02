@@ -1,0 +1,97 @@
+{
+  "base_id": "base_02",
+  "model": "random_forest",
+  "method": "GridSearchCV + TimeSeriesSplit(5)",
+  "tuning_end": "2026-06-19",
+  "test_start": "2026-06-22",
+  "n_candidates": 8,
+  "search_results": [
+    {
+      "params": {
+        "max_depth": 16,
+        "max_features": 0.7,
+        "min_samples_leaf": 1,
+        "n_estimators": 80
+      },
+      "validation_mae": 1.9088000336145314,
+      "rank": 1
+    },
+    {
+      "params": {
+        "max_depth": 8,
+        "max_features": 0.7,
+        "min_samples_leaf": 1,
+        "n_estimators": 80
+      },
+      "validation_mae": 1.9180389777314164,
+      "rank": 2
+    },
+    {
+      "params": {
+        "max_depth": 16,
+        "max_features": 0.7,
+        "min_samples_leaf": 3,
+        "n_estimators": 80
+      },
+      "validation_mae": 1.924054450830485,
+      "rank": 3
+    },
+    {
+      "params": {
+        "max_depth": 8,
+        "max_features": 0.7,
+        "min_samples_leaf": 3,
+        "n_estimators": 80
+      },
+      "validation_mae": 1.9300106838126765,
+      "rank": 4
+    },
+    {
+      "params": {
+        "max_depth": 16,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "n_estimators": 80
+      },
+      "validation_mae": 2.1350767619336506,
+      "rank": 5
+    },
+    {
+      "params": {
+        "max_depth": 8,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "n_estimators": 80
+      },
+      "validation_mae": 2.1501672086557364,
+      "rank": 6
+    },
+    {
+      "params": {
+        "max_depth": 8,
+        "max_features": "sqrt",
+        "min_samples_leaf": 3,
+        "n_estimators": 80
+      },
+      "validation_mae": 2.1557831538585304,
+      "rank": 7
+    },
+    {
+      "params": {
+        "max_depth": 16,
+        "max_features": "sqrt",
+        "min_samples_leaf": 3,
+        "n_estimators": 80
+      },
+      "validation_mae": 2.1622780694085924,
+      "rank": 8
+    }
+  ],
+  "selected": {
+    "max_depth": 16,
+    "max_features": 0.7,
+    "min_samples_leaf": 1,
+    "n_estimators": 80
+  },
+  "criterion": "menor MAE médio na validação temporal; Elastic Net otimiza o gap Open - close_lag_1"
+}
