@@ -1,0 +1,534 @@
+{
+  "base_id": "base_03",
+  "model": "sarimax",
+  "method": "expanding temporal GridSearch",
+  "tuning_end": "2018-12-01",
+  "test_start": "2019-01-01",
+  "n_candidates": 144,
+  "search_results": [
+    {
+      "params": {
+        "order": [
+          0,
+          1,
+          1
+        ],
+        "seasonal_order": [
+          1,
+          1,
+          1,
+          12
+        ]
+      },
+      "validation_mae": 0.3159920933536877,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "order": [
+          0,
+          1,
+          1
+        ],
+        "seasonal_order": [
+          0,
+          1,
+          1,
+          12
+        ]
+      },
+      "validation_mae": 0.3592314002906465,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "order": [
+          0,
+          0,
+          0
+        ],
+        "seasonal_order": [
+          1,
+          0,
+          1,
+          12
+        ]
+      },
+      "validation_mae": 0.37310360506133416,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "order": [
+          0,
+          1,
+          2
+        ],
+        "seasonal_order": [
+          1,
+          1,
+          1,
+          12
+        ]
+      },
+      "validation_mae": 0.3795973108190343,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "order": [
+          0,
+          1,
+          2
+        ],
+        "seasonal_order": [
+          0,
+          1,
+          1,
+          12
+        ]
+      },
+      "validation_mae": 0.3936942536823533,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "order": [
+          1,
+          1,
+          1
+        ],
+        "seasonal_order": [
+          1,
+          1,
+          1,
+          12
+        ]
+      },
+      "validation_mae": 0.4104484995080574,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "order": [
+          1,
+          0,
+          1
+        ],
+        "seasonal_order": [
+          0,
+          1,
+          1,
+          12
+        ]
+      },
+      "validation_mae": 0.42143527262697894,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "order": [
+          0,
+          0,
+          1
+        ],
+        "seasonal_order": [
+          1,
+          0,
+          1,
+          12
+        ]
+      },
+      "validation_mae": 0.42315858744720064,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "order": [
+          2,
+          1,
+          2
+        ],
+        "seasonal_order": [
+          1,
+          1,
+          1,
+          12
+        ]
+      },
+      "validation_mae": 0.426410211483423,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "order": [
+          1,
+          1,
+          2
+        ],
+        "seasonal_order": [
+          1,
+          1,
+          1,
+          12
+        ]
+      },
+      "validation_mae": 0.4295407341475493,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "order": [
+          2,
+          1,
+          2
+        ],
+        "seasonal_order": [
+          0,
+          1,
+          1,
+          12
+        ]
+      },
+      "validation_mae": 0.43855286581314445,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "order": [
+          2,
+          1,
+          1
+        ],
+        "seasonal_order": [
+          1,
+          1,
+          1,
+          12
+        ]
+      },
+      "validation_mae": 0.45831470927026124,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "order": [
+          1,
+          1,
+          1
+        ],
+        "seasonal_order": [
+          0,
+          1,
+          1,
+          12
+        ]
+      },
+      "validation_mae": 0.46975739944445905,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "order": [
+          1,
+          1,
+          2
+        ],
+        "seasonal_order": [
+          0,
+          1,
+          1,
+          12
+        ]
+      },
+      "validation_mae": 0.47827816454256944,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "order": [
+          1,
+          0,
+          0
+        ],
+        "seasonal_order": [
+          1,
+          0,
+          1,
+          12
+        ]
+      },
+      "validation_mae": 0.48557149768939467,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "order": [
+          2,
+          0,
+          1
+        ],
+        "seasonal_order": [
+          0,
+          1,
+          1,
+          12
+        ]
+      },
+      "validation_mae": 0.5034175142182654,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "order": [
+          2,
+          0,
+          1
+        ],
+        "seasonal_order": [
+          1,
+          1,
+          1,
+          12
+        ]
+      },
+      "validation_mae": 0.5080570249551404,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "order": [
+          1,
+          0,
+          2
+        ],
+        "seasonal_order": [
+          1,
+          1,
+          1,
+          12
+        ]
+      },
+      "validation_mae": 0.5082372182142063,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "order": [
+          1,
+          0,
+          1
+        ],
+        "seasonal_order": [
+          1,
+          1,
+          1,
+          12
+        ]
+      },
+      "validation_mae": 0.5107698014383463,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "order": [
+          1,
+          0,
+          2
+        ],
+        "seasonal_order": [
+          0,
+          1,
+          1,
+          12
+        ]
+      },
+      "validation_mae": 0.5136527861307572,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "order": [
+          2,
+          0,
+          0
+        ],
+        "seasonal_order": [
+          0,
+          1,
+          1,
+          12
+        ]
+      },
+      "validation_mae": 0.517323920980813,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "order": [
+          0,
+          0,
+          2
+        ],
+        "seasonal_order": [
+          0,
+          1,
+          1,
+          12
+        ]
+      },
+      "validation_mae": 0.51742195962225,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "order": [
+          0,
+          0,
+          2
+        ],
+        "seasonal_order": [
+          1,
+          1,
+          1,
+          12
+        ]
+      },
+      "validation_mae": 0.5174725214335687,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "order": [
+          0,
+          0,
+          0
+        ],
+        "seasonal_order": [
+          1,
+          1,
+          1,
+          12
+        ]
+      },
+      "validation_mae": 0.51832740521345,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "order": [
+          0,
+          0,
+          0
+        ],
+        "seasonal_order": [
+          0,
+          1,
+          1,
+          12
+        ]
+      },
+      "validation_mae": 0.5198591608213857,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "order": [
+          2,
+          1,
+          1
+        ],
+        "seasonal_order": [
+          0,
+          1,
+          1,
+          12
+        ]
+      },
+      "validation_mae": 0.5311414354700177,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "order": [
+          1,
+          0,
+          1
+        ],
+        "seasonal_order": [
+          1,
+          0,
+          1,
+          12
+        ]
+      },
+      "validation_mae": 0.531985737930135,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "order": [
+          2,
+          0,
+          0
+        ],
+        "seasonal_order": [
+          1,
+          1,
+          1,
+          12
+        ]
+      },
+      "validation_mae": 0.5322551738853113,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "order": [
+          0,
+          0,
+          1
+        ],
+        "seasonal_order": [
+          0,
+          1,
+          1,
+          12
+        ]
+      },
+      "validation_mae": 0.5436079543481772,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "order": [
+          1,
+          0,
+          0
+        ],
+        "seasonal_order": [
+          0,
+          1,
+          1,
+          12
+        ]
+      },
+      "validation_mae": 0.5466765264381739,
+      "n_failed_origins": 0
+    }
+  ],
+  "selected": {
+    "order": [
+      0,
+      1,
+      1
+    ],
+    "seasonal_order": [
+      1,
+      1,
+      1,
+      12
+    ]
+  },
+  "criterion": "menor MAE m\u00e9dio na valida\u00e7\u00e3o temporal"
+}

@@ -1,0 +1,107 @@
+{
+  "base_id": "base_03",
+  "model": "holt_winters",
+  "method": "expanding temporal GridSearch",
+  "tuning_end": "2018-12-01",
+  "test_start": "2019-01-01",
+  "n_candidates": 9,
+  "search_results": [
+    {
+      "params": {
+        "trend": "add",
+        "damped_trend": false,
+        "seasonal": "add",
+        "seasonal_periods": 12
+      },
+      "validation_mae": 0.7021390279131823,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "trend": null,
+        "damped_trend": false,
+        "seasonal": "add",
+        "seasonal_periods": 12
+      },
+      "validation_mae": 0.9394694141287288,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "trend": "add",
+        "damped_trend": true,
+        "seasonal": "add",
+        "seasonal_periods": 12
+      },
+      "validation_mae": 1.0053810846116003,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "trend": "add",
+        "damped_trend": false,
+        "seasonal": null,
+        "seasonal_periods": null
+      },
+      "validation_mae": 2.148209472158225,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "trend": null,
+        "damped_trend": false,
+        "seasonal": null,
+        "seasonal_periods": null
+      },
+      "validation_mae": 2.363070470431997,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "trend": "add",
+        "damped_trend": false,
+        "seasonal": "add",
+        "seasonal_periods": 6
+      },
+      "validation_mae": 2.4148264528141663,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "trend": "add",
+        "damped_trend": true,
+        "seasonal": null,
+        "seasonal_periods": null
+      },
+      "validation_mae": 2.431124034130433,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "trend": null,
+        "damped_trend": false,
+        "seasonal": "add",
+        "seasonal_periods": 6
+      },
+      "validation_mae": 2.5387826436771563,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "trend": "add",
+        "damped_trend": true,
+        "seasonal": "add",
+        "seasonal_periods": 6
+      },
+      "validation_mae": 2.60486557476547,
+      "n_failed_origins": 0
+    }
+  ],
+  "selected": {
+    "trend": "add",
+    "damped_trend": false,
+    "seasonal": "add",
+    "seasonal_periods": 12
+  },
+  "criterion": "menor MAE m\u00e9dio na valida\u00e7\u00e3o temporal"
+}
