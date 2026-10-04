@@ -1,0 +1,75 @@
+{
+  "base_id": "base_02",
+  "model": "sarimax",
+  "method": "validação temporal expansiva",
+  "tuning_end": "2026-06-19",
+  "test_start": "2026-06-22",
+  "n_candidates": 3,
+  "search_results": [
+    {
+      "params": {
+        "order": [
+          2,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          1,
+          0,
+          0,
+          5
+        ]
+      },
+      "validation_mae": 0.3197986035812785,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "order": [
+          2,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          0,
+          0,
+          1,
+          5
+        ]
+      },
+      "validation_mae": 0.32010622381510717,
+      "n_failed_origins": 0
+    },
+    {
+      "params": {
+        "order": [
+          2,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          0,
+          0,
+          0,
+          5
+        ]
+      },
+      "validation_mae": 0.3234450943359081,
+      "n_failed_origins": 0
+    }
+  ],
+  "selected": {
+    "order": [
+      2,
+      1,
+      0
+    ],
+    "seasonal_order": [
+      1,
+      0,
+      0,
+      5
+    ]
+  },
+  "criterion": "menor MAE médio na validação temporal; Elastic Net otimiza o gap Open - close_lag_1"
+}

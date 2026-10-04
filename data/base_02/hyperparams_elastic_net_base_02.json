@@ -1,0 +1,303 @@
+{
+  "base_id": "base_02",
+  "model": "elastic_net",
+  "method": "GridSearchCV + TimeSeriesSplit(5)",
+  "tuning_end": "2026-06-19",
+  "test_start": "2026-06-22",
+  "n_candidates": 36,
+  "search_results": [
+    {
+      "params": {
+        "model__alpha": 0.5,
+        "model__l1_ratio": 0.1
+      },
+      "validation_mae": 0.1271666552426328,
+      "rank": 1
+    },
+    {
+      "params": {
+        "model__alpha": 0.5,
+        "model__l1_ratio": 0.3
+      },
+      "validation_mae": 0.1271666552426328,
+      "rank": 1
+    },
+    {
+      "params": {
+        "model__alpha": 0.5,
+        "model__l1_ratio": 0.5
+      },
+      "validation_mae": 0.1271666552426328,
+      "rank": 1
+    },
+    {
+      "params": {
+        "model__alpha": 0.5,
+        "model__l1_ratio": 0.7
+      },
+      "validation_mae": 0.1271666552426328,
+      "rank": 1
+    },
+    {
+      "params": {
+        "model__alpha": 1.0,
+        "model__l1_ratio": 0.3
+      },
+      "validation_mae": 0.1271666552426328,
+      "rank": 1
+    },
+    {
+      "params": {
+        "model__alpha": 1.0,
+        "model__l1_ratio": 0.1
+      },
+      "validation_mae": 0.1271666552426328,
+      "rank": 1
+    },
+    {
+      "params": {
+        "model__alpha": 0.5,
+        "model__l1_ratio": 1.0
+      },
+      "validation_mae": 0.1271666552426328,
+      "rank": 1
+    },
+    {
+      "params": {
+        "model__alpha": 0.5,
+        "model__l1_ratio": 0.9
+      },
+      "validation_mae": 0.1271666552426328,
+      "rank": 1
+    },
+    {
+      "params": {
+        "model__alpha": 0.1,
+        "model__l1_ratio": 0.5
+      },
+      "validation_mae": 0.1271666552426328,
+      "rank": 1
+    },
+    {
+      "params": {
+        "model__alpha": 0.1,
+        "model__l1_ratio": 0.7
+      },
+      "validation_mae": 0.1271666552426328,
+      "rank": 1
+    },
+    {
+      "params": {
+        "model__alpha": 0.1,
+        "model__l1_ratio": 0.9
+      },
+      "validation_mae": 0.1271666552426328,
+      "rank": 1
+    },
+    {
+      "params": {
+        "model__alpha": 0.1,
+        "model__l1_ratio": 1.0
+      },
+      "validation_mae": 0.1271666552426328,
+      "rank": 1
+    },
+    {
+      "params": {
+        "model__alpha": 1.0,
+        "model__l1_ratio": 1.0
+      },
+      "validation_mae": 0.1271666552426328,
+      "rank": 1
+    },
+    {
+      "params": {
+        "model__alpha": 1.0,
+        "model__l1_ratio": 0.9
+      },
+      "validation_mae": 0.1271666552426328,
+      "rank": 1
+    },
+    {
+      "params": {
+        "model__alpha": 1.0,
+        "model__l1_ratio": 0.7
+      },
+      "validation_mae": 0.1271666552426328,
+      "rank": 1
+    },
+    {
+      "params": {
+        "model__alpha": 1.0,
+        "model__l1_ratio": 0.5
+      },
+      "validation_mae": 0.1271666552426328,
+      "rank": 1
+    },
+    {
+      "params": {
+        "model__alpha": 0.1,
+        "model__l1_ratio": 0.3
+      },
+      "validation_mae": 0.1271903760615601,
+      "rank": 17
+    },
+    {
+      "params": {
+        "model__alpha": 0.1,
+        "model__l1_ratio": 0.1
+      },
+      "validation_mae": 0.12892266643992978,
+      "rank": 18
+    },
+    {
+      "params": {
+        "model__alpha": 0.01,
+        "model__l1_ratio": 1.0
+      },
+      "validation_mae": 0.12949304105592066,
+      "rank": 19
+    },
+    {
+      "params": {
+        "model__alpha": 0.01,
+        "model__l1_ratio": 0.9
+      },
+      "validation_mae": 0.12984975109604177,
+      "rank": 20
+    },
+    {
+      "params": {
+        "model__alpha": 0.01,
+        "model__l1_ratio": 0.7
+      },
+      "validation_mae": 0.1325934152403471,
+      "rank": 21
+    },
+    {
+      "params": {
+        "model__alpha": 0.01,
+        "model__l1_ratio": 0.5
+      },
+      "validation_mae": 0.13690855468923088,
+      "rank": 22
+    },
+    {
+      "params": {
+        "model__alpha": 0.01,
+        "model__l1_ratio": 0.3
+      },
+      "validation_mae": 0.14002231958999617,
+      "rank": 23
+    },
+    {
+      "params": {
+        "model__alpha": 0.01,
+        "model__l1_ratio": 0.1
+      },
+      "validation_mae": 0.14527496044424404,
+      "rank": 24
+    },
+    {
+      "params": {
+        "model__alpha": 0.001,
+        "model__l1_ratio": 1.0
+      },
+      "validation_mae": 0.14615582162879392,
+      "rank": 25
+    },
+    {
+      "params": {
+        "model__alpha": 0.001,
+        "model__l1_ratio": 0.9
+      },
+      "validation_mae": 0.14713549356177988,
+      "rank": 26
+    },
+    {
+      "params": {
+        "model__alpha": 0.001,
+        "model__l1_ratio": 0.7
+      },
+      "validation_mae": 0.14935769325710893,
+      "rank": 27
+    },
+    {
+      "params": {
+        "model__alpha": 0.001,
+        "model__l1_ratio": 0.5
+      },
+      "validation_mae": 0.15182602072293716,
+      "rank": 28
+    },
+    {
+      "params": {
+        "model__alpha": 0.001,
+        "model__l1_ratio": 0.3
+      },
+      "validation_mae": 0.15452100788236645,
+      "rank": 29
+    },
+    {
+      "params": {
+        "model__alpha": 0.001,
+        "model__l1_ratio": 0.1
+      },
+      "validation_mae": 0.15749856367721082,
+      "rank": 30
+    },
+    {
+      "params": {
+        "model__alpha": 0.0001,
+        "model__l1_ratio": 1.0
+      },
+      "validation_mae": 0.15950983491480203,
+      "rank": 31
+    },
+    {
+      "params": {
+        "model__alpha": 0.0001,
+        "model__l1_ratio": 0.9
+      },
+      "validation_mae": 0.15975063597588174,
+      "rank": 32
+    },
+    {
+      "params": {
+        "model__alpha": 0.0001,
+        "model__l1_ratio": 0.7
+      },
+      "validation_mae": 0.16020048503507045,
+      "rank": 33
+    },
+    {
+      "params": {
+        "model__alpha": 0.0001,
+        "model__l1_ratio": 0.5
+      },
+      "validation_mae": 0.16071554753804101,
+      "rank": 34
+    },
+    {
+      "params": {
+        "model__alpha": 0.0001,
+        "model__l1_ratio": 0.3
+      },
+      "validation_mae": 0.16127575835630154,
+      "rank": 35
+    },
+    {
+      "params": {
+        "model__alpha": 0.0001,
+        "model__l1_ratio": 0.1
+      },
+      "validation_mae": 0.16185194041716316,
+      "rank": 36
+    }
+  ],
+  "selected": {
+    "model__alpha": 0.1,
+    "model__l1_ratio": 0.5
+  },
+  "criterion": "menor MAE médio na validação temporal; Elastic Net otimiza o gap Open - close_lag_1"
+}
