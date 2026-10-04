@@ -1,0 +1,1671 @@
+{
+  "search_space": {
+    "etapa_1": [
+      {
+        "order": [
+          0,
+          0,
+          0
+        ],
+        "seasonal_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fourier_k": 2,
+        "annual_diff": false,
+        "exog_lags": true
+      },
+      {
+        "order": [
+          0,
+          0,
+          1
+        ],
+        "seasonal_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fourier_k": 2,
+        "annual_diff": false,
+        "exog_lags": true
+      },
+      {
+        "order": [
+          0,
+          0,
+          2
+        ],
+        "seasonal_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fourier_k": 2,
+        "annual_diff": false,
+        "exog_lags": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fourier_k": 2,
+        "annual_diff": false,
+        "exog_lags": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          1
+        ],
+        "seasonal_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fourier_k": 2,
+        "annual_diff": false,
+        "exog_lags": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          2
+        ],
+        "seasonal_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fourier_k": 2,
+        "annual_diff": false,
+        "exog_lags": true
+      },
+      {
+        "order": [
+          1,
+          0,
+          0
+        ],
+        "seasonal_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fourier_k": 2,
+        "annual_diff": false,
+        "exog_lags": true
+      },
+      {
+        "order": [
+          1,
+          0,
+          1
+        ],
+        "seasonal_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fourier_k": 2,
+        "annual_diff": false,
+        "exog_lags": true
+      },
+      {
+        "order": [
+          1,
+          0,
+          2
+        ],
+        "seasonal_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fourier_k": 2,
+        "annual_diff": false,
+        "exog_lags": true
+      },
+      {
+        "order": [
+          1,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fourier_k": 2,
+        "annual_diff": false,
+        "exog_lags": true
+      },
+      {
+        "order": [
+          1,
+          1,
+          1
+        ],
+        "seasonal_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fourier_k": 2,
+        "annual_diff": false,
+        "exog_lags": true
+      },
+      {
+        "order": [
+          1,
+          1,
+          2
+        ],
+        "seasonal_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fourier_k": 2,
+        "annual_diff": false,
+        "exog_lags": true
+      },
+      {
+        "order": [
+          2,
+          0,
+          0
+        ],
+        "seasonal_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fourier_k": 2,
+        "annual_diff": false,
+        "exog_lags": true
+      },
+      {
+        "order": [
+          2,
+          0,
+          1
+        ],
+        "seasonal_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fourier_k": 2,
+        "annual_diff": false,
+        "exog_lags": true
+      },
+      {
+        "order": [
+          2,
+          0,
+          2
+        ],
+        "seasonal_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fourier_k": 2,
+        "annual_diff": false,
+        "exog_lags": true
+      },
+      {
+        "order": [
+          2,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fourier_k": 2,
+        "annual_diff": false,
+        "exog_lags": true
+      },
+      {
+        "order": [
+          2,
+          1,
+          1
+        ],
+        "seasonal_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fourier_k": 2,
+        "annual_diff": false,
+        "exog_lags": true
+      },
+      {
+        "order": [
+          2,
+          1,
+          2
+        ],
+        "seasonal_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fourier_k": 2,
+        "annual_diff": false,
+        "exog_lags": true
+      }
+    ],
+    "etapa_2": [
+      {
+        "order": [
+          0,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fourier_k": 0,
+        "annual_diff": false,
+        "exog_lags": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fourier_k": 1,
+        "annual_diff": false,
+        "exog_lags": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fourier_k": 2,
+        "annual_diff": false,
+        "exog_lags": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fourier_k": 3,
+        "annual_diff": false,
+        "exog_lags": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fourier_k": 4,
+        "annual_diff": false,
+        "exog_lags": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fourier_k": 0,
+        "annual_diff": true,
+        "exog_lags": true
+      }
+    ],
+    "etapa_3": [
+      {
+        "order": [
+          0,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "fourier_k": 2,
+        "annual_diff": false,
+        "exog_lags": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          0,
+          0,
+          1,
+          7
+        ],
+        "fourier_k": 2,
+        "annual_diff": false,
+        "exog_lags": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          0,
+          1,
+          0,
+          7
+        ],
+        "fourier_k": 2,
+        "annual_diff": false,
+        "exog_lags": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          0,
+          1,
+          1,
+          7
+        ],
+        "fourier_k": 2,
+        "annual_diff": false,
+        "exog_lags": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          1,
+          0,
+          0,
+          7
+        ],
+        "fourier_k": 2,
+        "annual_diff": false,
+        "exog_lags": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          1,
+          0,
+          1,
+          7
+        ],
+        "fourier_k": 2,
+        "annual_diff": false,
+        "exog_lags": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          1,
+          1,
+          0,
+          7
+        ],
+        "fourier_k": 2,
+        "annual_diff": false,
+        "exog_lags": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          1,
+          1,
+          1,
+          7
+        ],
+        "fourier_k": 2,
+        "annual_diff": false,
+        "exog_lags": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          0,
+          0,
+          1,
+          30
+        ],
+        "fourier_k": 2,
+        "annual_diff": false,
+        "exog_lags": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          0,
+          1,
+          0,
+          30
+        ],
+        "fourier_k": 2,
+        "annual_diff": false,
+        "exog_lags": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          0,
+          1,
+          1,
+          30
+        ],
+        "fourier_k": 2,
+        "annual_diff": false,
+        "exog_lags": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          1,
+          0,
+          0,
+          30
+        ],
+        "fourier_k": 2,
+        "annual_diff": false,
+        "exog_lags": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          1,
+          0,
+          1,
+          30
+        ],
+        "fourier_k": 2,
+        "annual_diff": false,
+        "exog_lags": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          1,
+          1,
+          0,
+          30
+        ],
+        "fourier_k": 2,
+        "annual_diff": false,
+        "exog_lags": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          1,
+          1,
+          1,
+          30
+        ],
+        "fourier_k": 2,
+        "annual_diff": false,
+        "exog_lags": true
+      }
+    ],
+    "etapa_4": [
+      {
+        "order": [
+          0,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          1,
+          0,
+          1,
+          7
+        ],
+        "fourier_k": 2,
+        "annual_diff": false,
+        "exog_lags": true
+      },
+      {
+        "order": [
+          0,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          1,
+          0,
+          1,
+          7
+        ],
+        "fourier_k": 2,
+        "annual_diff": false,
+        "exog_lags": false
+      }
+    ]
+  },
+  "final": {
+    "order": [
+      0,
+      1,
+      0
+    ],
+    "seasonal_order": [
+      1,
+      0,
+      1,
+      7
+    ],
+    "fourier_k": 2,
+    "annual_diff": false,
+    "exog_lags": true
+  },
+  "mae_validacao": 0.7856855434882875,
+  "tuning_results": [
+    {
+      "candidato": 3,
+      "order": [
+        0,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fourier_k": 2,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 0.8015355408,
+      "aic": 5211.5528768501,
+      "bic": 5253.1801210188,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 17.2,
+      "etapa": 1
+    },
+    {
+      "candidato": 9,
+      "order": [
+        1,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fourier_k": 2,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 0.817025954,
+      "aic": 5198.4633462066,
+      "bic": 5245.2939958964,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 20.2,
+      "etapa": 1
+    },
+    {
+      "candidato": 4,
+      "order": [
+        0,
+        1,
+        1
+      ],
+      "seasonal_order": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fourier_k": 2,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 0.8389496569,
+      "aic": 5181.9518382266,
+      "bic": 5228.7757889953,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 35.7,
+      "etapa": 1
+    },
+    {
+      "candidato": 15,
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fourier_k": 2,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 0.8567299485,
+      "aic": 5178.8821725222,
+      "bic": 5230.9087844875,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 15.2,
+      "etapa": 1
+    },
+    {
+      "candidato": 5,
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "seasonal_order": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fourier_k": 2,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 0.9180319173,
+      "aic": 5136.4243915719,
+      "bic": 5188.4435547472,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 52.0,
+      "etapa": 1
+    },
+    {
+      "candidato": 17,
+      "order": [
+        2,
+        1,
+        2
+      ],
+      "seasonal_order": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fourier_k": 2,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 0.9200835024,
+      "aic": 5025.9688510212,
+      "bic": 5088.3918468316,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 122.0,
+      "etapa": 1
+    },
+    {
+      "candidato": 10,
+      "order": [
+        1,
+        1,
+        1
+      ],
+      "seasonal_order": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fourier_k": 2,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 0.9352138473,
+      "aic": 5029.3429143728,
+      "bic": 5081.369526338,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 62.3,
+      "etapa": 1
+    },
+    {
+      "candidato": 11,
+      "order": [
+        1,
+        1,
+        2
+      ],
+      "seasonal_order": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fourier_k": 2,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 0.9370026582,
+      "aic": 5024.8544391397,
+      "bic": 5082.0755186326,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 88.8,
+      "etapa": 1
+    },
+    {
+      "candidato": 16,
+      "order": [
+        2,
+        1,
+        1
+      ],
+      "seasonal_order": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fourier_k": 2,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 0.939892212,
+      "aic": 5031.1510096036,
+      "bic": 5088.3802827653,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 92.7,
+      "etapa": 1
+    },
+    {
+      "candidato": 14,
+      "order": [
+        2,
+        0,
+        2
+      ],
+      "seasonal_order": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fourier_k": 2,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 1.4357348566,
+      "aic": 5043.5127171135,
+      "bic": 5105.9446514718,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 97.2,
+      "etapa": 1
+    },
+    {
+      "candidato": 8,
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "seasonal_order": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fourier_k": 2,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 1.4522128825,
+      "aic": 5038.9602008121,
+      "bic": 5096.1894739739,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 115.3,
+      "etapa": 1
+    },
+    {
+      "candidato": 13,
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "seasonal_order": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fourier_k": 2,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 1.4884393415,
+      "aic": 5041.7046201482,
+      "bic": 5098.9420808801,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 60.0,
+      "etapa": 1
+    },
+    {
+      "candidato": 6,
+      "order": [
+        1,
+        0,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fourier_k": 2,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 1.4907184821,
+      "aic": 5041.6270805832,
+      "bic": 5088.4644242115,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 50.8,
+      "etapa": 1
+    },
+    {
+      "candidato": 7,
+      "order": [
+        1,
+        0,
+        1
+      ],
+      "seasonal_order": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fourier_k": 2,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 1.4909300806,
+      "aic": 5039.7473576011,
+      "bic": 5091.7814128119,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 91.8,
+      "etapa": 1
+    },
+    {
+      "candidato": 12,
+      "order": [
+        2,
+        0,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fourier_k": 2,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 1.4922886886,
+      "aic": 5039.7082990448,
+      "bic": 5091.7423542556,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 61.1,
+      "etapa": 1
+    },
+    {
+      "candidato": 2,
+      "order": [
+        0,
+        0,
+        2
+      ],
+      "seasonal_order": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fourier_k": 2,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 2.006529873,
+      "aic": 5183.219758559,
+      "bic": 5235.2463705242,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 81.8,
+      "etapa": 1
+    },
+    {
+      "candidato": 0,
+      "order": [
+        0,
+        0,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fourier_k": 2,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 2.0464954887,
+      "aic": 5820.0459302678,
+      "bic": 5861.6791246041,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 54.1,
+      "etapa": 1
+    },
+    {
+      "candidato": 1,
+      "order": [
+        0,
+        0,
+        1
+      ],
+      "seasonal_order": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fourier_k": 2,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 2.0845425351,
+      "aic": 5411.373909791,
+      "bic": 5458.2045594808,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 89.6,
+      "etapa": 1
+    },
+    {
+      "candidato": 2,
+      "order": [
+        0,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fourier_k": 2,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 0.8015355408,
+      "aic": 5211.5528768501,
+      "bic": 5253.1801210188,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 22.4,
+      "etapa": 2
+    },
+    {
+      "candidato": 4,
+      "order": [
+        0,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fourier_k": 4,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 0.8053919602,
+      "aic": 5218.7878611981,
+      "bic": 5281.2287274511,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 28.1,
+      "etapa": 2
+    },
+    {
+      "candidato": 3,
+      "order": [
+        0,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fourier_k": 3,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 0.8241364593,
+      "aic": 5214.8953362182,
+      "bic": 5266.929391429,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 28.7,
+      "etapa": 2
+    },
+    {
+      "candidato": 1,
+      "order": [
+        0,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fourier_k": 1,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 0.9414800429,
+      "aic": 5210.3558095876,
+      "bic": 5241.5762427141,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 20.3,
+      "etapa": 2
+    },
+    {
+      "candidato": 0,
+      "order": [
+        0,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fourier_k": 0,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 1.1431411747,
+      "aic": 5212.8621098898,
+      "bic": 5233.6757319741,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 14.2,
+      "etapa": 2
+    },
+    {
+      "candidato": 5,
+      "order": [
+        0,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fourier_k": 0,
+      "annual_diff": true,
+      "exog_lags": true,
+      "mae_validacao": 1.5202869654,
+      "aic": 4468.011239177,
+      "bic": 4487.5573657471,
+      "n_obs": 981,
+      "status": "ok",
+      "segundos": 9.5,
+      "etapa": 2
+    },
+    {
+      "candidato": 5,
+      "order": [
+        0,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        1,
+        0,
+        1,
+        7
+      ],
+      "fourier_k": 2,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 0.7856855435,
+      "aic": 5174.8007068396,
+      "bic": 5226.7825426106,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 37.6,
+      "etapa": 3
+    },
+    {
+      "candidato": 1,
+      "order": [
+        0,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        0,
+        1,
+        7
+      ],
+      "fourier_k": 2,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 0.7922992556,
+      "aic": 5174.7464296142,
+      "bic": 5221.5300818081,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 17.6,
+      "etapa": 3
+    },
+    {
+      "candidato": 4,
+      "order": [
+        0,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        1,
+        0,
+        0,
+        7
+      ],
+      "fourier_k": 2,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 0.7938826705,
+      "aic": 5180.1385873592,
+      "bic": 5226.9289685254,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 13.9,
+      "etapa": 3
+    },
+    {
+      "candidato": 0,
+      "order": [
+        0,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "fourier_k": 2,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 0.8015355408,
+      "aic": 5211.5528768501,
+      "bic": 5253.1801210188,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 20.7,
+      "etapa": 3
+    },
+    {
+      "candidato": 11,
+      "order": [
+        0,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        1,
+        0,
+        0,
+        30
+      ],
+      "fourier_k": 2,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 0.8036909443,
+      "aic": 5082.9326359143,
+      "bic": 5129.5669634158,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 175.7,
+      "etapa": 3
+    },
+    {
+      "candidato": 7,
+      "order": [
+        0,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        7
+      ],
+      "fourier_k": 2,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 0.8039191682,
+      "aic": 5183.3163469099,
+      "bic": 5235.245689122,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 198.6,
+      "etapa": 3
+    },
+    {
+      "candidato": 12,
+      "order": [
+        0,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        1,
+        0,
+        1,
+        30
+      ],
+      "fourier_k": 2,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 0.8047959671,
+      "aic": 5081.2645317964,
+      "bic": 5133.0728437869,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 170.7,
+      "etapa": 3
+    },
+    {
+      "candidato": 8,
+      "order": [
+        0,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        0,
+        1,
+        30
+      ],
+      "fourier_k": 2,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 0.8048738376,
+      "aic": 5079.8013135168,
+      "bic": 5126.4287943082,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 172.8,
+      "etapa": 3
+    },
+    {
+      "candidato": 3,
+      "order": [
+        0,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        7
+      ],
+      "fourier_k": 2,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 0.81590198,
+      "aic": 5183.5343128044,
+      "bic": 5230.2707207954,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 119.0,
+      "etapa": 3
+    },
+    {
+      "candidato": 10,
+      "order": [
+        0,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        30
+      ],
+      "fourier_k": 2,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 0.8678830966,
+      "aic": 5063.3480175031,
+      "bic": 5109.7676368613,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 753.6,
+      "etapa": 3
+    },
+    {
+      "candidato": 14,
+      "order": [
+        0,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        1,
+        1,
+        1,
+        30
+      ],
+      "fourier_k": 2,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 0.8927028563,
+      "aic": 5064.1696182664,
+      "bic": 5115.7469731089,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 847.1,
+      "etapa": 3
+    },
+    {
+      "candidato": 13,
+      "order": [
+        0,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        1,
+        1,
+        0,
+        30
+      ],
+      "fourier_k": 2,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 1.5811299453,
+      "aic": 5499.2920733275,
+      "bic": 5545.7186993035,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 527.9,
+      "etapa": 3
+    },
+    {
+      "candidato": 6,
+      "order": [
+        0,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        1,
+        1,
+        0,
+        7
+      ],
+      "fourier_k": 2,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 1.6907630323,
+      "aic": 5696.0057085349,
+      "bic": 5742.7488809005,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 31.2,
+      "etapa": 3
+    },
+    {
+      "candidato": 9,
+      "order": [
+        0,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        0,
+        30
+      ],
+      "fourier_k": 2,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 1.7317373114,
+      "aic": 5972.7914815366,
+      "bic": 6014.238131129,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 221.7,
+      "etapa": 3
+    },
+    {
+      "candidato": 2,
+      "order": [
+        0,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        0,
+        7
+      ],
+      "fourier_k": 2,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 2.0477975014,
+      "aic": 6130.2353052414,
+      "bic": 6171.8207738582,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 36.9,
+      "etapa": 3
+    },
+    {
+      "candidato": 1,
+      "order": [
+        0,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        1,
+        0,
+        1,
+        7
+      ],
+      "fourier_k": 2,
+      "annual_diff": false,
+      "exog_lags": false,
+      "mae_validacao": 0.7741659497,
+      "aic": 5204.2738403058,
+      "bic": 5240.6663589906,
+      "n_obs": 1347,
+      "status": "ok",
+      "segundos": 14.7,
+      "etapa": 4
+    },
+    {
+      "candidato": 0,
+      "order": [
+        0,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        1,
+        0,
+        1,
+        7
+      ],
+      "fourier_k": 2,
+      "annual_diff": false,
+      "exog_lags": true,
+      "mae_validacao": 0.7856855435,
+      "aic": 5174.8007068396,
+      "bic": 5226.7825426106,
+      "n_obs": 1346,
+      "status": "ok",
+      "segundos": 17.9,
+      "etapa": 4
+    }
+  ]
+}
