@@ -425,7 +425,20 @@ def save_residuals(preds: pd.DataFrame, data_dir: Path, base_id: str, model_slug
     return path
 
 
+def training_window(index: pd.DatetimeIndex) -> dict:
+    """Periodo efetivamente usado no ajuste (apos o descarte de NaN iniciais)."""
+    return {"start": str(index.min().date()), "end": str(index.max().date()), "n_obs": int(len(index))}
+
+
 def save_meta(artifact_dir: Path, base_id: str, model_slug: str, hyperparams: dict, random_state: int, extra: dict | None = None) -> Path:
+    """Grava {modelo}_meta.json ao lado do {modelo}.pkl (artifacts/README.md, ADR-0005).
+
+    Campos fixos: base_id, model, artifact, hyperparams, trained_at (UTC), random_state e
+    versoes de libs. `extra` acrescenta o registro por execucao da spec de modelos (§7):
+    tempo de ajuste, janela de treino, features, metricas.
+    """
+    import platform
+    import joblib
     import sklearn
     import statsmodels
     from datetime import datetime, timezone
@@ -433,14 +446,17 @@ def save_meta(artifact_dir: Path, base_id: str, model_slug: str, hyperparams: di
     meta = {
         "base_id": base_id,
         "model": model_slug,
+        "artifact": f"{model_slug}.pkl",
         "hyperparams": hyperparams,
         "trained_at": datetime.now(timezone.utc).isoformat(),
         "random_state": random_state,
         "library_versions": {
+            "python": platform.python_version(),
             "pandas": pd.__version__,
             "numpy": np.__version__,
             "sklearn": sklearn.__version__,
             "statsmodels": statsmodels.__version__,
+            "joblib": joblib.__version__,
         },
     }
     if extra:
